@@ -1,0 +1,56 @@
+{
+  "hindi": {
+    "checkpoint_path": "/kaggle/input/notebooks/negative00/notebookb7b29f6528/phase2_outputs/hindi_checkpoints/step_00020000.pt",
+    "checkpoint_step": 20000,
+    "parameter_count": 25871504,
+    "tokenizer_path": "/kaggle/input/datasets/negative00/phase2-cloud-data/hindi/tokenizer/models/hindi_bpe_10k_final.model",
+    "validation_loss": 4.101473248098228,
+    "test_loss": 4.026231606726463,
+    "validation_perplexity": 60.429249326569824,
+    "test_perplexity": 56.0492969809338,
+    "validation_bpb": 0.7017239368863444,
+    "test_bpb": 0.6910104006525026,
+    "bleu": null,
+    "chrf": null,
+    "rougeL": null,
+    "repetition_rate": null,
+    "distinct_1": null,
+    "distinct_2": null,
+    "attention_entropy": 1.7900581359863281,
+    "mean_attention_distance": 8.193660245690998,
+    "documents_evaluated": 500,
+    "tokens_evaluated": 459388,
+    "generation_settings": {
+      "max_tokens": 50,
+      "prompt_length": 10
+    },
+    "metrics_available": false
+  },
+  "nepali": {
+    "checkpoint_path": "/kaggle/input/notebooks/negative00/notebook13f3511eed/phase2_outputs_nepali/nepali_checkpoints/step_00020000.pt",
+    "checkpoint_step": 20000,
+    "parameter_count": 25871504,
+    "tokenizer_path": "/kaggle/input/datasets/negative00/phase2-cloud-data/nepali/tokenizer/models/nepali_bpe_10k_assignment.model",
+    "validation_loss": 4.1789514137401165,
+    "test_loss": 4.0806179659124195,
+    "validation_perplexity": 65.29734740186784,
+    "test_perplexity": 59.18203102974146,
+    "validation_bpb": 0.5435145191953215,
+    "test_bpb": 0.5393062831634319,
+    "bleu": null,
+    "chrf": null,
+    "rougeL": null,
+    "repetition_rate": null,
+    "distinct_1": null,
+    "distinct_2": null,
+    "attention_entropy": 1.7572168111801147,
+    "mean_attention_distance": 8.082405386445531,
+    "documents_evaluated": 500,
+    "tokens_evaluated": 235528,
+    "generation_settings": {
+      "max_tokens": 50,
+      "prompt_length": 10
+    },
+    "metrics_available": false
+  }
+}

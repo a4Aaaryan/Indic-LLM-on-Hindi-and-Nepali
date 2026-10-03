@@ -1,0 +1,80 @@
+# Phase 1 Configuration: Hindi (Model H - Higher Resource)
+
+language:
+  name: "Hindi"
+  code: "hi"
+  script: "Devanagari"
+  tier: "higher-resource"
+
+targets:
+  target_training_tokens: 500000000
+  manual_token_percentage_target: 25.0 # Margin safely above the 20% assignment requirement
+  random_seed: 42
+
+paths:
+  data_raw_dir: "hindi/data/raw"
+  data_interim_dir: "hindi/data/interim"
+  data_cleaned_dir: "hindi/data/cleaned"
+  data_splits_dir: "hindi/data/splits"
+  tokenizer_train_dir: "hindi/tokenizer/train"
+  tokenizer_models_dir: "hindi/tokenizer/models"
+  tokenizer_vocab_dir: "hindi/tokenizer/vocab"
+  statistics_dir: "report/tables"
+  figures_dir: "report/figures"
+
+sources:
+  downloaded:
+    - name: "indic_hplt_v2"
+      type: "downloaded"
+      source_url: "https://huggingface.co/datasets/ashtok897/indic-hplt-v2"
+      subset: "hi"
+      description: "Indic HPLT v2 Hindi web text backbone"
+    - name: "indic_corp_v2"
+      type: "downloaded_backup"
+      source_url: "https://huggingface.co/datasets/ai4bharat/IndicCorpV2"
+      description: "Backup downloaded corpus if HPLT v2 requires domain supplementation"
+  manual:
+    - name: "hindi_wikipedia"
+      type: "manual"
+      source_url: "https://dumps.wikimedia.org/hiwiki/latest/"
+      description: "Raw Wikimedia Hindi XML dump extracted and preprocessed in-house"
+    - name: "dainik_jagran"
+      type: "manual"
+      source_url: "https://www.jagran.com/"
+      description: "Scraped Hindi news articles (main body text only)"
+    - name: "amar_ujala"
+      type: "manual"
+      source_url: "https://www.amarujala.com/"
+      description: "Scraped Hindi news articles (main body text only)"
+    - name: "live_hindustan"
+      type: "manual"
+      source_url: "https://www.livehindustan.com/"
+      description: "Scraped Hindi news articles (main body text only)"
+
+preprocessing:
+  unicode_normalization: "NFKC"
+  min_character_length: 50
+  max_character_length: 1000000
+  keep_digits: true
+  remove_boilerplate: true
+  deduplication:
+    exact_hash_dedup: true
+    minhash_near_dedup: false
+    threshold: 0.85
+
+splitting:
+  train_ratio: 0.90
+  val_ratio: 0.05
+  test_ratio: 0.05
+  strategy: "document_level"
+  random_seed: 42
+
+tokenizer:
+  algorithms: ["bpe", "unigram"]
+  vocab_size_candidates: [16000, 32000, 48000]
+  character_coverage: 0.9995
+  special_tokens:
+    unk_token: "<unk>"
+    bos_token: "<s>"
+    eos_token: "</s>"
+    pad_token: "<pad>"

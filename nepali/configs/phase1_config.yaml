@@ -1,0 +1,96 @@
+# Phase 1 Configuration: Nepali (Model L - Lower Resource)
+
+language:
+  name: "Nepali"
+  code: "ne"
+  script: "Devanagari"
+  tier: "lower-resource"
+
+targets:
+  target_training_tokens: 500000000
+  manual_token_percentage_target: 25.0 # Margin safely above the 20% assignment requirement
+  random_seed: 42
+
+paths:
+  data_raw_dir: "nepali/data/raw"
+  data_interim_dir: "nepali/data/interim"
+  data_cleaned_dir: "nepali/data/cleaned"
+  data_splits_dir: "nepali/data/splits"
+  tokenizer_train_dir: "nepali/tokenizer/train"
+  tokenizer_models_dir: "nepali/tokenizer/models"
+  tokenizer_vocab_dir: "nepali/tokenizer/vocab"
+  statistics_dir: "report/tables"
+  figures_dir: "report/figures"
+
+sources:
+  downloaded:
+    - name: "indic_hplt_v2"
+      type: "downloaded"
+      source_url: "https://huggingface.co/datasets/ashtok897/indic-hplt-v2"
+      subset: "ne"
+      description: "Indic HPLT v2 Nepali subset backbone"
+    - name: "nepali_corpus_v1"
+      type: "downloaded_backup"
+      source_url: "https://huggingface.co/datasets/paudelnirajan/nepali-corpus-v1"
+      description: "Backup downloaded corpus if needed"
+    - name: "cc100_nepali"
+      type: "downloaded_backup"
+      source_url: "https://huggingface.co/datasets/himalaya-ai/cc100-nepali"
+      description: "CC100 Nepali backup corpus"
+  manual:
+    - name: "nepali_wikipedia"
+      type: "manual"
+      source_url: "https://dumps.wikimedia.org/newiki/latest/"
+      description: "Raw Wikimedia Nepali XML dump extracted and preprocessed in-house"
+    - name: "nepali_wikisource"
+      type: "manual"
+      source_url: "https://dumps.wikimedia.org/sourceswiki/latest/"
+      description: "Raw Wikimedia Nepali Wikisource XML dump extracted and preprocessed in-house"
+    - name: "nepali_archives"
+      type: "manual"
+      source_url: "https://www.nepaliarchives.org/"
+      description: "Scraped public domain Nepali literary archive (works, poems, essays)"
+    - name: "onlinekhabar"
+      type: "manual"
+      source_url: "https://www.onlinekhabar.com/"
+      description: "Scraped Nepali news articles from Onlinekhabar"
+    - name: "ratopati"
+      type: "manual"
+      source_url: "https://www.ratopati.com/"
+      description: "Scraped Nepali news articles from Ratopati"
+    - name: "kantipur"
+      type: "manual_backup"
+      source_url: "https://ekantipur.com/"
+      description: "Backup manual news source if additional manual tokens are required"
+    - name: "e_pustakalaya"
+      type: "manual_metadata_only"
+      source_url: "https://pustakalaya.org/"
+      description: "OLE Nepal E-Pustakalaya digital library catalog metadata"
+
+preprocessing:
+  unicode_normalization: "NFKC"
+  min_character_length: 50
+  max_character_length: 1000000
+  keep_digits: true
+  remove_boilerplate: true
+  deduplication:
+    exact_hash_dedup: true
+    minhash_near_dedup: false
+    threshold: 0.85
+
+splitting:
+  train_ratio: 0.90
+  val_ratio: 0.05
+  test_ratio: 0.05
+  strategy: "document_level"
+  random_seed: 42
+
+tokenizer:
+  algorithms: ["bpe", "unigram"]
+  vocab_size_candidates: [16000, 32000, 48000]
+  character_coverage: 0.9995
+  special_tokens:
+    unk_token: "<unk>"
+    bos_token: "<s>"
+    eos_token: "</s>"
+    pad_token: "<pad>"

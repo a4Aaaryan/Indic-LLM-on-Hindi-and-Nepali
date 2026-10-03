@@ -1,0 +1,14 @@
+{
+  "hindi": {
+    "layer_0_mean_entropy": 1.9417389631271362,
+    "layer_0_mean_distance": 6.0667668709883475,
+    "layer_7_mean_entropy": 1.7900581359863281,
+    "layer_7_mean_distance": 8.193660245690998
+  },
+  "nepali": {
+    "layer_0_mean_entropy": 2.2249550819396973,
+    "layer_0_mean_distance": 6.693481404203709,
+    "layer_7_mean_entropy": 1.7572168111801147,
+    "layer_7_mean_distance": 8.082405386445531
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "hindi_news_scraped.jsonl": {
+    "docs": 234,
+    "words": 120917,
+    "chars": 805387,
+    "devanagari_chars": 498417,
+    "devanagari_ratio": 0.6188540415973935
+  },
+  "hindi_wikipedia.jsonl": {
+    "docs": 168299,
+    "words": 51803550,
+    "chars": 286191043,
+    "devanagari_chars": 210707377,
+    "devanagari_ratio": 0.7362472801079243
+  },
+  "hindi_wikisource.jsonl": {
+    "docs": 167471,
+    "words": 52805749,
+    "chars": 277270494,
+    "devanagari_chars": 209534015,
+    "devanagari_ratio": 0.7557025342912975
+  },
+  "indic_hplt_v2_hi.jsonl.gz": {
+    "docs": 614314,
+    "words": 285401242,
+    "chars": 1462038088,
+    "devanagari_chars": 1076674322,
+    "devanagari_ratio": 0.7364201595273351
+  }
+}

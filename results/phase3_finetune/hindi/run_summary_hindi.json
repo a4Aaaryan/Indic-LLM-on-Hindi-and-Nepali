@@ -1,0 +1,12 @@
+{
+  "language": "hindi",
+  "timestamp": "2026-09-16T10:24:35.864665Z",
+  "checkpoint": "/kaggle/input/notebooks/negative00/notebookb7b29f6528/phase2_outputs/hindi_checkpoints/step_00020000.pt",
+  "tokenizer": "/kaggle/input/datasets/negative00/phase2-cloud-data/hindi/tokenizer/models/hindi_bpe_10k_final.model",
+  "test": "/kaggle/input/datasets/negative00/phase-3-finetune-dataset/hindi_test.jsonl",
+  "baseline_json": "/kaggle/working/results/phase3_finetune/hindi/baseline_hindi.json",
+  "finetuned_json": "/kaggle/working/results/phase3_finetune/hindi/finetuned_hindi.json",
+  "run_baseline": true,
+  "run_finetuning": false,
+  "seed": 42
+}

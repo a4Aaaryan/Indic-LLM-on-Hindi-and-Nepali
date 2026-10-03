@@ -1,0 +1,41 @@
+{
+  "candidate_name": "nepali_bpe_10k_final",
+  "algorithm": "bpe",
+  "vocabulary_size": 10000,
+  "training_sample_size": 6080280,
+  "source_contributions": {
+    "indic_hplt_v2": 5000000,
+    "onlinekhabar": 312365,
+    "ratopati": 39055,
+    "nepali_archives": 83,
+    "e_pustakalaya": 685,
+    "ekantipur": 266411,
+    "kantipur": 96,
+    "setopati": 83766,
+    "nepali_wikipedia": 367488,
+    "nepali_wikisource": 10331
+  },
+  "sentencepiece_parameters": {
+    "model_type": "bpe",
+    "vocab_size": 10000,
+    "character_coverage": 0.9995,
+    "normalization_rule_name": "identity",
+    "max_sentence_length": 20000,
+    "input_sentence_size": 20000000,
+    "shuffle_input_sentence": true,
+    "unk_piece": "<unk>",
+    "bos_piece": "<s>",
+    "eos_piece": "</s>",
+    "pad_piece": "<pad>"
+  },
+  "training_runtime_sec": 227.97818851470947,
+  "validation_metrics": {
+    "docs": 53071,
+    "words": 15956538,
+    "tokens": 25016459,
+    "fertility": 1.5677873859605385,
+    "chars_per_token": 4.119353502428141,
+    "unks": 544371,
+    "unk_pct": 2.1760513748168755
+  }
+}

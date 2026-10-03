@@ -1,0 +1,102 @@
+{
+  "onlinekhabar": {
+    "source_name": "onlinekhabar",
+    "file_name": "nepali_news_scraped.jsonl",
+    "docs": 28987,
+    "words": 10489745,
+    "chars": 68517302,
+    "devanagari_chars": 56908376,
+    "file_size_bytes": 500921511,
+    "devanagari_ratio": 0.830569423180148
+  },
+  "ratopati": {
+    "source_name": "ratopati",
+    "file_name": "nepali_news_scraped.jsonl",
+    "docs": 7245,
+    "words": 2177890,
+    "chars": 14483519,
+    "devanagari_chars": 12082270,
+    "file_size_bytes": 500921511,
+    "devanagari_ratio": 0.8342081782749068
+  },
+  "nepali_archives": {
+    "source_name": "nepali_archives",
+    "file_name": "nepali_news_scraped.jsonl",
+    "docs": 4,
+    "words": 6002,
+    "chars": 42151,
+    "devanagari_chars": 34558,
+    "file_size_bytes": 500921511,
+    "devanagari_ratio": 0.8198619249839861
+  },
+  "e_pustakalaya": {
+    "source_name": "e_pustakalaya",
+    "file_name": "nepali_news_scraped.jsonl",
+    "docs": 4,
+    "words": 2134,
+    "chars": 24864,
+    "devanagari_chars": 10091,
+    "file_size_bytes": 500921511,
+    "devanagari_ratio": 0.4058478120978121
+  },
+  "ekantipur": {
+    "source_name": "ekantipur",
+    "file_name": "nepali_news_scraped.jsonl",
+    "docs": 29088,
+    "words": 12373873,
+    "chars": 80593038,
+    "devanagari_chars": 67100095,
+    "file_size_bytes": 500921511,
+    "devanagari_ratio": 0.8325792979785673
+  },
+  "kantipur": {
+    "source_name": "kantipur",
+    "file_name": "nepali_news_scraped.jsonl",
+    "docs": 90,
+    "words": 39202,
+    "chars": 253260,
+    "devanagari_chars": 210722,
+    "file_size_bytes": 500921511,
+    "devanagari_ratio": 0.8320382215904604
+  },
+  "setopati": {
+    "source_name": "setopati",
+    "file_name": "nepali_news_scraped.jsonl",
+    "docs": 2581,
+    "words": 284433,
+    "chars": 2923446,
+    "devanagari_chars": 1714884,
+    "file_size_bytes": 500921511,
+    "devanagari_ratio": 0.5865967765438459
+  },
+  "nepali_wikipedia": {
+    "source_name": "nepali_wikipedia",
+    "file_name": "nepali_wikipedia.jsonl",
+    "docs": 30285,
+    "words": 7061109,
+    "chars": 47237982,
+    "devanagari_chars": 36846766,
+    "file_size_bytes": 140645196,
+    "devanagari_ratio": 0.7800241339691437
+  },
+  "nepali_wikisource": {
+    "source_name": "nepali_wikisource",
+    "file_name": "nepali_wikisource.jsonl",
+    "docs": 80,
+    "words": 90301,
+    "chars": 545114,
+    "devanagari_chars": 432456,
+    "file_size_bytes": 1484530,
+    "devanagari_ratio": 0.7933313031769501
+  },
+  "indic_hplt_v2": {
+    "source_name": "indic_hplt_v2",
+    "file_name": "indic_hplt_v2_ne.jsonl.gz",
+    "docs": 966131,
+    "words": 285524100,
+    "chars": 1841657769,
+    "devanagari_chars": 1512620490,
+    "file_size_bytes": 1101586358,
+    "devanagari_ratio": 0.8213363608925758
+  }
+}

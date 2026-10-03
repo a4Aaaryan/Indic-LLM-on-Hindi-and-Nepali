@@ -1,0 +1,86 @@
+[
+  {
+    "candidate_name": "nepali_bpe_8000",
+    "algorithm": "bpe",
+    "vocabulary_size": 8000,
+    "training_sample_size": 2330280,
+    "source_contributions": {
+      "indic_hplt_v2": 1250000,
+      "onlinekhabar": 312365,
+      "ratopati": 39055,
+      "nepali_archives": 83,
+      "e_pustakalaya": 685,
+      "ekantipur": 266411,
+      "kantipur": 96,
+      "setopati": 83766,
+      "nepali_wikipedia": 367488,
+      "nepali_wikisource": 10331
+    },
+    "sentencepiece_parameters": {
+      "model_type": "bpe",
+      "vocab_size": 8000,
+      "character_coverage": 0.9995,
+      "normalization_rule_name": "identity",
+      "max_sentence_length": 20000,
+      "input_sentence_size": 5000000,
+      "shuffle_input_sentence": true,
+      "unk_piece": "<unk>",
+      "bos_piece": "<s>",
+      "eos_piece": "</s>",
+      "pad_piece": "<pad>"
+    },
+    "training_runtime_sec": 149.99021124839783,
+    "validation_metrics": {
+      "docs": 53071,
+      "words": 15956538,
+      "tokens": 26096966,
+      "fertility": 1.6355030145010152,
+      "chars_per_token": 3.948797649504544,
+      "unks": 549117,
+      "unk_pct": 2.104141148055295
+    },
+    "error": null
+  },
+  {
+    "candidate_name": "nepali_bpe_10000",
+    "algorithm": "bpe",
+    "vocabulary_size": 10000,
+    "training_sample_size": 2330280,
+    "source_contributions": {
+      "indic_hplt_v2": 1250000,
+      "onlinekhabar": 312365,
+      "ratopati": 39055,
+      "nepali_archives": 83,
+      "e_pustakalaya": 685,
+      "ekantipur": 266411,
+      "kantipur": 96,
+      "setopati": 83766,
+      "nepali_wikipedia": 367488,
+      "nepali_wikisource": 10331
+    },
+    "sentencepiece_parameters": {
+      "model_type": "bpe",
+      "vocab_size": 10000,
+      "character_coverage": 0.9995,
+      "normalization_rule_name": "identity",
+      "max_sentence_length": 20000,
+      "input_sentence_size": 5000000,
+      "shuffle_input_sentence": true,
+      "unk_piece": "<unk>",
+      "bos_piece": "<s>",
+      "eos_piece": "</s>",
+      "pad_piece": "<pad>"
+    },
+    "training_runtime_sec": 151.7149453163147,
+    "validation_metrics": {
+      "docs": 53071,
+      "words": 15956538,
+      "tokens": 25067886,
+      "fertility": 1.5710103281802106,
+      "chars_per_token": 4.110902610615032,
+      "unks": 549117,
+      "unk_pct": 2.1905197749822225
+    },
+    "error": null
+  }
+]

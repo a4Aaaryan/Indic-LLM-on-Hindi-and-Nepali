@@ -1,0 +1,2738 @@
+[
+  {
+    "lang": "hindi",
+    "model_type": "pretrained",
+    "layer_name": "early",
+    "layer_idx": 0,
+    "category": "familiar",
+    "ex_idx": 0,
+    "example_id": "hindi_test_0",
+    "template_id": "H35+H35",
+    "task_type": "direct",
+    "attribute": "quantity",
+    "question_category": "substance_amount",
+    "answer": "कॉफी",
+    "seq_len": 35,
+    "mean_distance_all_heads": 6.962528883967324,
+    "entropy_all_heads": 2.0433761732918874,
+    "checkpoint_path": "/kaggle/input/notebooks/negative00/notebookb7b29f6528/phase2_outputs/hindi_checkpoints/step_00020000.pt",
+    "step": 20000,
+    "tokenizer_path": "/kaggle/input/datasets/negative00/phase2-cloud-data/hindi/tokenizer/models/hindi_bpe_10k_final.model",
+    "per_head": [
+      {
+        "head": 0,
+        "mean_distance": 7.980348916085703,
+        "entropy": 2.513425588607788
+      },
+      {
+        "head": 1,
+        "mean_distance": 7.40349748861793,
+        "entropy": 2.1753990650177
+      },
+      {
+        "head": 2,
+        "mean_distance": 8.524202847520687,
+        "entropy": 2.4815032482147217
+      },
+      {
+        "head": 3,
+        "mean_distance": 5.770916466232406,
+        "entropy": 1.5451991558074951
+      },
+      {
+        "head": 4,
+        "mean_distance": 8.450335884586508,
+        "entropy": 2.5202863216400146
+      },
+      {
+        "head": 5,
+        "mean_distance": 3.87162125328013,
+        "entropy": 1.0261578559875488
+      },
+      {
+        "head": 6,
+        "mean_distance": 6.736779331447906,
+        "entropy": 2.0416619777679443
+      }
+    ]
+  },
+  {
+    "lang": "hindi",
+    "model_type": "pretrained",
+    "layer_name": "late",
+    "layer_idx": 7,
+    "category": "familiar",
+    "ex_idx": 0,
+    "example_id": "hindi_test_0",
+    "template_id": "H35+H35",
+    "task_type": "direct",
+    "attribute": "quantity",
+    "question_category": "substance_amount",
+    "answer": "कॉफी",
+    "seq_len": 35,
+    "mean_distance_all_heads": 8.622858439505672,
+    "entropy_all_heads": 1.8274065596716744,
+    "checkpoint_path": "/kaggle/input/notebooks/negative00/notebookb7b29f6528/phase2_outputs/hindi_checkpoints/step_00020000.pt",
+    "step": 20000,
+    "tokenizer_path": "/kaggle/input/datasets/negative00/phase2-cloud-data/hindi/tokenizer/models/hindi_bpe_10k_final.model",
+    "per_head": [
+      {
+        "head": 0,
+        "mean_distance": 9.682851627642023,
+        "entropy": 2.4858081340789795
+      },
+      {
+        "head": 1,
+        "mean_distance": 5.3814986813930705,
+        "entropy": 1.192081332206726
+      },
+      {
+        "head": 2,
+        "mean_distance": 9.101810226214157,
+        "entropy": 1.0638376474380493
+      },
+      {
+        "head": 3,
+        "mean_distance": 9.85305321200327,
+        "entropy": 1.4827288389205933
+      },
+      {
+        "head": 4,
+        "mean_distance": 8.592873866422893,
+        "entropy": 2.2056667804718018
+      },
+      {
+        "head": 5,
+        "mean_distance": 8.614961180303778,
+        "entropy": 2.4717745780944824
+      },
+      {
+        "head": 6,
+        "mean_distance": 9.132960282560504,
+        "entropy": 1.8899486064910889
+      }
+    ]
+  },
+  {
+    "lang": "hindi",
+    "model_type": "pretrained",
+    "layer_name": "early",
+    "layer_idx": 0,
+    "category": "familiar",
+    "ex_idx": 1,
+    "example_id": "hindi_test_1",
+    "template_id": "H42",
+    "task_type": "transitive",
+    "attribute": "generic_order",
+    "question_category": "generic_order",
+    "answer": "छोटा",
+    "seq_len": 26,
+    "mean_distance_all_heads": 5.03577913154058,
+    "entropy_all_heads": 1.770289387021746,
+    "checkpoint_path": "/kaggle/input/notebooks/negative00/notebookb7b29f6528/phase2_outputs/hindi_checkpoints/step_00020000.pt",
+    "step": 20000,
+    "tokenizer_path": "/kaggle/input/datasets/negative00/phase2-cloud-data/hindi/tokenizer/models/hindi_bpe_10k_final.model",
+    "per_head": [
+      {
+        "head": 0,
+        "mean_distance": 6.080977957731543,
+        "entropy": 2.2525689601898193
+      },
+      {
+        "head": 1,
+        "mean_distance": 5.757929035516169,
+        "entropy": 1.865411639213562
+      },
+      {
+        "head": 2,
+        "mean_distance": 5.928887398501572,
+        "entropy": 2.163849115371704
+      },
+      {
+        "head": 3,
+        "mean_distance": 4.076837389875261,
+        "entropy": 1.3446259498596191
+      },
+      {
+        "head": 4,
+        "mean_distance": 6.1169890041391435,
+        "entropy": 2.2501220703125
+      },
+      {
+        "head": 5,
+        "mean_distance": 1.9156378141152584,
+        "entropy": 0.6787265539169312
+      },
+      {
+        "head": 6,
+        "mean_distance": 5.373195320905115,
+        "entropy": 1.836721420288086
+      }
+    ]
+  },
+  {
+    "lang": "hindi",
+    "model_type": "pretrained",
+    "layer_name": "late",
+    "layer_idx": 7,
+    "category": "familiar",
+    "ex_idx": 1,
+    "example_id": "hindi_test_1",
+    "template_id": "H42",
+    "task_type": "transitive",
+    "attribute": "generic_order",
+    "question_category": "generic_order",
+    "answer": "छोटा",
+    "seq_len": 26,
+    "mean_distance_all_heads": 6.160064744390174,
+    "entropy_all_heads": 1.9494576965059554,
+    "checkpoint_path": "/kaggle/input/notebooks/negative00/notebookb7b29f6528/phase2_outputs/hindi_checkpoints/step_00020000.pt",
+    "step": 20000,
+    "tokenizer_path": "/kaggle/input/datasets/negative00/phase2-cloud-data/hindi/tokenizer/models/hindi_bpe_10k_final.model",
+    "per_head": [
+      {
+        "head": 0,
+        "mean_distance": 6.346473135913794,
+        "entropy": 2.2522621154785156
+      },
+      {
+        "head": 1,
+        "mean_distance": 5.341415034617127,
+        "entropy": 1.432494878768921
+      },
+      {
+        "head": 2,
+        "mean_distance": 6.123641468781548,
+        "entropy": 2.2005860805511475
+      },
+      {
+        "head": 3,
+        "mean_distance": 7.013145160935262,
+        "entropy": 1.690651774406433
+      },
+      {
+        "head": 4,
+        "mean_distance": 6.30006966334902,
+        "entropy": 2.159695625305176
+      },
+      {
+        "head": 5,
+        "mean_distance": 6.223883716819378,
+        "entropy": 2.322702169418335
+      },
+      {
+        "head": 6,
+        "mean_distance": 5.771825030315085,
+        "entropy": 1.5878112316131592
+      }
+    ]
+  },
+  {
+    "lang": "hindi",
+    "model_type": "pretrained",
+    "layer_name": "early",
+    "layer_idx": 0,
+    "category": "familiar",
+    "ex_idx": 2,
+    "example_id": "hindi_test_2",
+    "template_id": "H2+H2",
+    "task_type": "direct",
+    "attribute": "height",
+    "question_category": "height",
+    "answer": "दीपक",
+    "seq_len": 25,
+    "mean_distance_all_heads": 4.867795377774874,
+    "entropy_all_heads": 1.7697338036128454,
+    "checkpoint_path": "/kaggle/input/notebooks/negative00/notebookb7b29f6528/phase2_outputs/hindi_checkpoints/step_00020000.pt",
+    "step": 20000,
+    "tokenizer_path": "/kaggle/input/datasets/negative00/phase2-cloud-data/hindi/tokenizer/models/hindi_bpe_10k_final.model",
+    "per_head": [
+      {
+        "head": 0,
+        "mean_distance": 5.682927298285067,
+        "entropy": 2.2062339782714844
+      },
+      {
+        "head": 1,
+        "mean_distance": 5.268852808983065,
+        "entropy": 1.870180368423462
+      },
+      {
+        "head": 2,
+        "mean_distance": 5.76738374993205,
+        "entropy": 2.126392126083374
+      },
+      {
+        "head": 3,
+        "mean_distance": 4.021531667606905,
+        "entropy": 1.3627138137817383
+      },
+      {
+        "head": 4,
+        "mean_distance": 5.734091240949929,
+        "entropy": 2.2443089485168457
+      },
+      {
+        "head": 5,
+        "mean_distance": 2.255394350263832,
+        "entropy": 0.6814007759094238
+      },
+      {
+        "head": 6,
+        "mean_distance": 5.344386528403265,
+        "entropy": 1.8969066143035889
+      }
+    ]
+  },
+  {
+    "lang": "hindi",
+    "model_type": "pretrained",
+    "layer_name": "late",
+    "layer_idx": 7,
+    "category": "familiar",
+    "ex_idx": 2,
+    "example_id": "hindi_test_2",
+    "template_id": "H2+H2",
+    "task_type": "direct",
+    "attribute": "height",
+    "question_category": "height",
+    "answer": "दीपक",
+    "seq_len": 25,
+    "mean_distance_all_heads": 5.904704638915386,
+    "entropy_all_heads": 1.8298827750342233,
+    "checkpoint_path": "/kaggle/input/notebooks/negative00/notebookb7b29f6528/phase2_outputs/hindi_checkpoints/step_00020000.pt",
+    "step": 20000,
+    "tokenizer_path": "/kaggle/input/datasets/negative00/phase2-cloud-data/hindi/tokenizer/models/hindi_bpe_10k_final.model",
+    "per_head": [
+      {
+        "head": 0,
+        "mean_distance": 6.508756010998041,
+        "entropy": 2.2318429946899414
+      },
+      {
+        "head": 1,
+        "mean_distance": 3.8405698048870547,
+        "entropy": 1.2869127988815308
+      },
+      {
+        "head": 2,
+        "mean_distance": 6.415740485959686,
+        "entropy": 1.605839729309082
+      },
+      {
+        "head": 3,
+        "mean_distance": 6.354130386339384,
+        "entropy": 1.6979892253875732
+      },
+      {
+        "head": 4,
+        "mean_distance": 5.780572006772272,
+        "entropy": 2.071377754211426
+      },
+      {
+        "head": 5,
+        "mean_distance": 6.224038674011826,
+        "entropy": 2.262202739715576
+      },
+      {
+        "head": 6,
+        "mean_distance": 6.209125103439437,
+        "entropy": 1.6530141830444336
+      }
+    ]
+  },
+  {
+    "lang": "hindi",
+    "model_type": "pretrained",
+    "layer_name": "early",
+    "layer_idx": 0,
+    "category": "held_out",
+    "ex_idx": 0,
+    "example_id": "hindi_test_3",
+    "template_id": "H31",
+    "task_type": "transitive",
+    "attribute": "price",
+    "question_category": "price",
+    "answer": "सस्ता",
+    "seq_len": 30,
+    "mean_distance_all_heads": 5.933651965507527,
+    "entropy_all_heads": 1.8833447354180473,
+    "checkpoint_path": "/kaggle/input/notebooks/negative00/notebookb7b29f6528/phase2_outputs/hindi_checkpoints/step_00020000.pt",
+    "step": 20000,
+    "tokenizer_path": "/kaggle/input/datasets/negative00/phase2-cloud-data/hindi/tokenizer/models/hindi_bpe_10k_final.model",
+    "per_head": [
+      {
+        "head": 0,
+        "mean_distance": 7.112222378514707,
+        "entropy": 2.3658251762390137
+      },
+      {
+        "head": 1,
+        "mean_distance": 6.782226505683502,
+        "entropy": 2.0661799907684326
+      },
+      {
+        "head": 2,
+        "mean_distance": 7.076204547348122,
+        "entropy": 2.332642078399658
+      },
+      {
+        "head": 3,
+        "mean_distance": 4.633923201198831,
+        "entropy": 1.3122280836105347
+      },
+      {
+        "head": 4,
+        "mean_distance": 7.033099849770466,
+        "entropy": 2.3836162090301514
+      },
+      {
+        "head": 5,
+        "mean_distance": 2.3888120486150495,
+        "entropy": 0.7223637104034424
+      },
+      {
+        "head": 6,
+        "mean_distance": 6.509075227422,
+        "entropy": 2.0005578994750977
+      }
+    ]
+  },
+  {
+    "lang": "hindi",
+    "model_type": "pretrained",
+    "layer_name": "late",
+    "layer_idx": 7,
+    "category": "held_out",
+    "ex_idx": 0,
+    "example_id": "hindi_test_3",
+    "template_id": "H31",
+    "task_type": "transitive",
+    "attribute": "price",
+    "question_category": "price",
+    "answer": "सस्ता",
+    "seq_len": 30,
+    "mean_distance_all_heads": 7.628609683189653,
+    "entropy_all_heads": 2.0141510282244,
+    "checkpoint_path": "/kaggle/input/notebooks/negative00/notebookb7b29f6528/phase2_outputs/hindi_checkpoints/step_00020000.pt",
+    "step": 20000,
+    "tokenizer_path": "/kaggle/input/datasets/negative00/phase2-cloud-data/hindi/tokenizer/models/hindi_bpe_10k_final.model",
+    "per_head": [
+      {
+        "head": 0,
+        "mean_distance": 7.955271552177146,
+        "entropy": 2.3364319801330566
+      },
+      {
+        "head": 1,
+        "mean_distance": 5.547318441102307,
+        "entropy": 1.82491934299469
+      },
+      {
+        "head": 2,
+        "mean_distance": 8.515320515694718,
+        "entropy": 2.1108858585357666
+      },
+      {
+        "head": 3,
+        "mean_distance": 8.563343728543254,
+        "entropy": 1.3735907077789307
+      },
+      {
+        "head": 4,
+        "mean_distance": 7.622413195152573,
+        "entropy": 2.2045705318450928
+      },
+      {
+        "head": 5,
+        "mean_distance": 7.344782429995636,
+        "entropy": 2.4272537231445312
+      },
+      {
+        "head": 6,
+        "mean_distance": 7.851817919661941,
+        "entropy": 1.821405053138733
+      }
+    ]
+  },
+  {
+    "lang": "hindi",
+    "model_type": "pretrained",
+    "layer_name": "early",
+    "layer_idx": 0,
+    "category": "held_out",
+    "ex_idx": 1,
+    "example_id": "hindi_test_6",
+    "template_id": "H40",
+    "task_type": "transitive",
+    "attribute": "generic_order",
+    "question_category": "generic_order",
+    "answer": "बड़ा",
+    "seq_len": 26,
+    "mean_distance_all_heads": 4.941997318785779,
+    "entropy_all_heads": 1.754939786025456,
+    "checkpoint_path": "/kaggle/input/notebooks/negative00/notebookb7b29f6528/phase2_outputs/hindi_checkpoints/step_00020000.pt",
+    "step": 20000,
+    "tokenizer_path": "/kaggle/input/datasets/negative00/phase2-cloud-data/hindi/tokenizer/models/hindi_bpe_10k_final.model",
+    "per_head": [
+      {
+        "head": 0,
+        "mean_distance": 6.04383220953437,
+        "entropy": 2.231043815612793
+      },
+      {
+        "head": 1,
+        "mean_distance": 5.574334198648173,
+        "entropy": 1.8637455701828003
+      },
+      {
+        "head": 2,
+        "mean_distance": 5.8015535134965415,
+        "entropy": 2.170646905899048
+      },
+      {
+        "head": 3,
+        "mean_distance": 3.8398704852290675,
+        "entropy": 1.2758911848068237
+      },
+      {
+        "head": 4,
+        "mean_distance": 5.974761363512908,
+        "entropy": 2.2603659629821777
+      },
+      {
+        "head": 5,
+        "mean_distance": 1.8892012514098264,
+        "entropy": 0.6476271748542786
+      },
+      {
+        "head": 6,
+        "mean_distance": 5.47042820966957,
+        "entropy": 1.835257887840271
+      }
+    ]
+  },
+  {
+    "lang": "hindi",
+    "model_type": "pretrained",
+    "layer_name": "late",
+    "layer_idx": 7,
+    "category": "held_out",
+    "ex_idx": 1,
+    "example_id": "hindi_test_6",
+    "template_id": "H40",
+    "task_type": "transitive",
+    "attribute": "generic_order",
+    "question_category": "generic_order",
+    "answer": "बड़ा",
+    "seq_len": 26,
+    "mean_distance_all_heads": 6.329298840217044,
+    "entropy_all_heads": 1.9064642190933228,
+    "checkpoint_path": "/kaggle/input/notebooks/negative00/notebookb7b29f6528/phase2_outputs/hindi_checkpoints/step_00020000.pt",
+    "step": 20000,
+    "tokenizer_path": "/kaggle/input/datasets/negative00/phase2-cloud-data/hindi/tokenizer/models/hindi_bpe_10k_final.model",
+    "per_head": [
+      {
+        "head": 0,
+        "mean_distance": 6.7227854533837395,
+        "entropy": 2.250333309173584
+      },
+      {
+        "head": 1,
+        "mean_distance": 5.773365513662541,
+        "entropy": 1.4617209434509277
+      },
+      {
+        "head": 2,
+        "mean_distance": 6.041194004543986,
+        "entropy": 2.119521141052246
+      },
+      {
+        "head": 3,
+        "mean_distance": 7.363482770793291,
+        "entropy": 1.62651526927948
+      },
+      {
+        "head": 4,
+        "mean_distance": 6.111744559481919,
+        "entropy": 2.098532199859619
+      },
+      {
+        "head": 5,
+        "mean_distance": 6.192992188609564,
+        "entropy": 2.321571111679077
+      },
+      {
+        "head": 6,
+        "mean_distance": 6.099527391044271,
+        "entropy": 1.4670555591583252
+      }
+    ]
+  },
+  {
+    "lang": "hindi",
+    "model_type": "pretrained",
+    "layer_name": "early",
+    "layer_idx": 0,
+    "category": "held_out",
+    "ex_idx": 2,
+    "example_id": "hindi_test_7",
+    "template_id": "H40",
+    "task_type": "transitive",
+    "attribute": "generic_order",
+    "question_category": "generic_order",
+    "answer": "बड़ा",
+    "seq_len": 26,
+    "mean_distance_all_heads": 4.844275352105443,
+    "entropy_all_heads": 1.7488651956830705,
+    "checkpoint_path": "/kaggle/input/notebooks/negative00/notebookb7b29f6528/phase2_outputs/hindi_checkpoints/step_00020000.pt",
+    "step": 20000,
+    "tokenizer_path": "/kaggle/input/datasets/negative00/phase2-cloud-data/hindi/tokenizer/models/hindi_bpe_10k_final.model",
+    "per_head": [
+      {
+        "head": 0,
+        "mean_distance": 6.06943927716034,
+        "entropy": 2.23193621635437
+      },
+      {
+        "head": 1,
+        "mean_distance": 5.182983969755207,
+        "entropy": 1.8436230421066284
+      },
+      {
+        "head": 2,
+        "mean_distance": 5.841101360202838,
+        "entropy": 2.1704797744750977
+      },
+      {
+        "head": 3,
+        "mean_distance": 3.8209633900403857,
+        "entropy": 1.2802385091781616
+      },
+      {
+        "head": 4,
+        "mean_distance": 5.950642963226598,
+        "entropy": 2.259942054748535
+      },
+      {
+        "head": 5,
+        "mean_distance": 1.8751478489988533,
+        "entropy": 0.6417089700698853
+      },
+      {
+        "head": 6,
+        "mean_distance": 5.16964865535388,
+        "entropy": 1.814127802848816
+      }
+    ]
+  },
+  {
+    "lang": "hindi",
+    "model_type": "pretrained",
+    "layer_name": "late",
+    "layer_idx": 7,
+    "category": "held_out",
+    "ex_idx": 2,
+    "example_id": "hindi_test_7",
+    "template_id": "H40",
+    "task_type": "transitive",
+    "attribute": "generic_order",
+    "question_category": "generic_order",
+    "answer": "बड़ा",
+    "seq_len": 26,
+    "mean_distance_all_heads": 6.195003951200176,
+    "entropy_all_heads": 1.9355992249080114,
+    "checkpoint_path": "/kaggle/input/notebooks/negative00/notebookb7b29f6528/phase2_outputs/hindi_checkpoints/step_00020000.pt",
+    "step": 20000,
+    "tokenizer_path": "/kaggle/input/datasets/negative00/phase2-cloud-data/hindi/tokenizer/models/hindi_bpe_10k_final.model",
+    "per_head": [
+      {
+        "head": 0,
+        "mean_distance": 6.538793747384961,
+        "entropy": 2.210289239883423
+      },
+      {
+        "head": 1,
+        "mean_distance": 5.102495365729667,
+        "entropy": 1.5252801179885864
+      },
+      {
+        "head": 2,
+        "mean_distance": 6.0709712869272785,
+        "entropy": 2.223614454269409
+      },
+      {
+        "head": 3,
+        "mean_distance": 6.953578650203081,
+        "entropy": 1.7046356201171875
+      },
+      {
+        "head": 4,
+        "mean_distance": 6.339464983681235,
+        "entropy": 2.1100077629089355
+      },
+      {
+        "head": 5,
+        "mean_distance": 6.337686980787951,
+        "entropy": 2.32529354095459
+      },
+      {
+        "head": 6,
+        "mean_distance": 6.022036643687058,
+        "entropy": 1.4500738382339478
+      }
+    ]
+  },
+  {
+    "lang": "hindi",
+    "model_type": "finetuned",
+    "layer_name": "early",
+    "layer_idx": 0,
+    "category": "familiar",
+    "ex_idx": 0,
+    "example_id": "hindi_test_0",
+    "template_id": "H35+H35",
+    "task_type": "direct",
+    "attribute": "quantity",
+    "question_category": "substance_amount",
+    "answer": "कॉफी",
+    "seq_len": 35,
+    "mean_distance_all_heads": 6.957547938921199,
+    "entropy_all_heads": 2.004855649811881,
+    "checkpoint_path": "/kaggle/input/notebooks/negative00/lma-phase3-hindi/results/phase3_finetune/hindi/step_00003000.pt",
+    "step": 3000,
+    "tokenizer_path": "/kaggle/input/datasets/negative00/phase2-cloud-data/hindi/tokenizer/models/hindi_bpe_10k_final.model",
+    "per_head": [
+      {
+        "head": 0,
+        "mean_distance": 7.97362696274982,
+        "entropy": 2.4770002365112305
+      },
+      {
+        "head": 1,
+        "mean_distance": 7.282364361965198,
+        "entropy": 2.169607162475586
+      },
+      {
+        "head": 2,
+        "mean_distance": 8.116807118098118,
+        "entropy": 2.430542469024658
+      },
+      {
+        "head": 3,
+        "mean_distance": 6.389428234311916,
+        "entropy": 1.500570297241211
+      },
+      {
+        "head": 4,
+        "mean_distance": 8.518221929097281,
+        "entropy": 2.5000948905944824
+      },
+      {
+        "head": 5,
+        "mean_distance": 4.087168983142082,
+        "entropy": 1.0995421409606934
+      },
+      {
+        "head": 6,
+        "mean_distance": 6.335217983083982,
+        "entropy": 1.8566323518753052
+      }
+    ]
+  },
+  {
+    "lang": "hindi",
+    "model_type": "finetuned",
+    "layer_name": "late",
+    "layer_idx": 7,
+    "category": "familiar",
+    "ex_idx": 0,
+    "example_id": "hindi_test_0",
+    "template_id": "H35+H35",
+    "task_type": "direct",
+    "attribute": "quantity",
+    "question_category": "substance_amount",
+    "answer": "कॉफी",
+    "seq_len": 35,
+    "mean_distance_all_heads": 8.453141053228588,
+    "entropy_all_heads": 1.6344082355499268,
+    "checkpoint_path": "/kaggle/input/notebooks/negative00/lma-phase3-hindi/results/phase3_finetune/hindi/step_00003000.pt",
+    "step": 3000,
+    "tokenizer_path": "/kaggle/input/datasets/negative00/phase2-cloud-data/hindi/tokenizer/models/hindi_bpe_10k_final.model",
+    "per_head": [
+      {
+        "head": 0,
+        "mean_distance": 10.654581307731236,
+        "entropy": 2.3166167736053467
+      },
+      {
+        "head": 1,
+        "mean_distance": 6.5537663072703225,
+        "entropy": 1.428519606590271
+      },
+      {
+        "head": 2,
+        "mean_distance": 10.756012190853523,
+        "entropy": 1.0316061973571777
+      },
+      {
+        "head": 3,
+        "mean_distance": 7.957723629289395,
+        "entropy": 1.1872237920761108
+      },
+      {
+        "head": 4,
+        "mean_distance": 6.9660697003125005,
+        "entropy": 1.455143928527832
+      },
+      {
+        "head": 5,
+        "mean_distance": 8.256272841114729,
+        "entropy": 2.1038529872894287
+      },
+      {
+        "head": 6,
+        "mean_distance": 8.027561396028405,
+        "entropy": 1.9178943634033203
+      }
+    ]
+  },
+  {
+    "lang": "hindi",
+    "model_type": "finetuned",
+    "layer_name": "early",
+    "layer_idx": 0,
+    "category": "familiar",
+    "ex_idx": 1,
+    "example_id": "hindi_test_1",
+    "template_id": "H42",
+    "task_type": "transitive",
+    "attribute": "generic_order",
+    "question_category": "generic_order",
+    "answer": "छोटा",
+    "seq_len": 26,
+    "mean_distance_all_heads": 5.02355557228221,
+    "entropy_all_heads": 1.7417137793132238,
+    "checkpoint_path": "/kaggle/input/notebooks/negative00/lma-phase3-hindi/results/phase3_finetune/hindi/step_00003000.pt",
+    "step": 3000,
+    "tokenizer_path": "/kaggle/input/datasets/negative00/phase2-cloud-data/hindi/tokenizer/models/hindi_bpe_10k_final.model",
+    "per_head": [
+      {
+        "head": 0,
+        "mean_distance": 6.009171459179085,
+        "entropy": 2.2103939056396484
+      },
+      {
+        "head": 1,
+        "mean_distance": 5.399421383916678,
+        "entropy": 1.8256027698516846
+      },
+      {
+        "head": 2,
+        "mean_distance": 5.417726582417695,
+        "entropy": 1.9476324319839478
+      },
+      {
+        "head": 3,
+        "mean_distance": 4.735108947421815,
+        "entropy": 1.3863625526428223
+      },
+      {
+        "head": 4,
+        "mean_distance": 5.982761623588606,
+        "entropy": 2.241044282913208
+      },
+      {
+        "head": 5,
+        "mean_distance": 2.378815613320851,
+        "entropy": 0.7610063552856445
+      },
+      {
+        "head": 6,
+        "mean_distance": 5.241883396130736,
+        "entropy": 1.8199541568756104
+      }
+    ]
+  },
+  {
+    "lang": "hindi",
+    "model_type": "finetuned",
+    "layer_name": "late",
+    "layer_idx": 7,
+    "category": "familiar",
+    "ex_idx": 1,
+    "example_id": "hindi_test_1",
+    "template_id": "H42",
+    "task_type": "transitive",
+    "attribute": "generic_order",
+    "question_category": "generic_order",
+    "answer": "छोटा",
+    "seq_len": 26,
+    "mean_distance_all_heads": 7.468429122579139,
+    "entropy_all_heads": 1.386712440422603,
+    "checkpoint_path": "/kaggle/input/notebooks/negative00/lma-phase3-hindi/results/phase3_finetune/hindi/step_00003000.pt",
+    "step": 3000,
+    "tokenizer_path": "/kaggle/input/datasets/negative00/phase2-cloud-data/hindi/tokenizer/models/hindi_bpe_10k_final.model",
+    "per_head": [
+      {
+        "head": 0,
+        "mean_distance": 8.419022068060327,
+        "entropy": 1.881332516670227
+      },
+      {
+        "head": 1,
+        "mean_distance": 7.762453828706749,
+        "entropy": 1.0051730871200562
+      },
+      {
+        "head": 2,
+        "mean_distance": 5.591076477474308,
+        "entropy": 1.602603793144226
+      },
+      {
+        "head": 3,
+        "mean_distance": 7.491499549583029,
+        "entropy": 0.8906530141830444
+      },
+      {
+        "head": 4,
+        "mean_distance": 8.400893766530588,
+        "entropy": 0.8522934317588806
+      },
+      {
+        "head": 5,
+        "mean_distance": 6.2480101522926885,
+        "entropy": 1.8173739910125732
+      },
+      {
+        "head": 6,
+        "mean_distance": 8.366048015406285,
+        "entropy": 1.6575572490692139
+      }
+    ]
+  },
+  {
+    "lang": "hindi",
+    "model_type": "finetuned",
+    "layer_name": "early",
+    "layer_idx": 0,
+    "category": "familiar",
+    "ex_idx": 2,
+    "example_id": "hindi_test_2",
+    "template_id": "H2+H2",
+    "task_type": "direct",
+    "attribute": "height",
+    "question_category": "height",
+    "answer": "दीपक",
+    "seq_len": 25,
+    "mean_distance_all_heads": 4.84212695336967,
+    "entropy_all_heads": 1.7233951687812805,
+    "checkpoint_path": "/kaggle/input/notebooks/negative00/lma-phase3-hindi/results/phase3_finetune/hindi/step_00003000.pt",
+    "step": 3000,
+    "tokenizer_path": "/kaggle/input/datasets/negative00/phase2-cloud-data/hindi/tokenizer/models/hindi_bpe_10k_final.model",
+    "per_head": [
+      {
+        "head": 0,
+        "mean_distance": 5.5256700250692665,
+        "entropy": 2.137665033340454
+      },
+      {
+        "head": 1,
+        "mean_distance": 5.087605680143461,
+        "entropy": 1.827544093132019
+      },
+      {
+        "head": 2,
+        "mean_distance": 5.3800319574680175,
+        "entropy": 1.9672906398773193
+      },
+      {
+        "head": 3,
+        "mean_distance": 4.767871616197517,
+        "entropy": 1.3493183851242065
+      },
+      {
+        "head": 4,
+        "mean_distance": 5.441111258305609,
+        "entropy": 2.174987554550171
+      },
+      {
+        "head": 5,
+        "mean_distance": 2.350844898171472,
+        "entropy": 0.7379079461097717
+      },
+      {
+        "head": 6,
+        "mean_distance": 5.34175323823234,
+        "entropy": 1.869052529335022
+      }
+    ]
+  },
+  {
+    "lang": "hindi",
+    "model_type": "finetuned",
+    "layer_name": "late",
+    "layer_idx": 7,
+    "category": "familiar",
+    "ex_idx": 2,
+    "example_id": "hindi_test_2",
+    "template_id": "H2+H2",
+    "task_type": "direct",
+    "attribute": "height",
+    "question_category": "height",
+    "answer": "दीपक",
+    "seq_len": 25,
+    "mean_distance_all_heads": 6.461350735195974,
+    "entropy_all_heads": 1.4422189933913094,
+    "checkpoint_path": "/kaggle/input/notebooks/negative00/lma-phase3-hindi/results/phase3_finetune/hindi/step_00003000.pt",
+    "step": 3000,
+    "tokenizer_path": "/kaggle/input/datasets/negative00/phase2-cloud-data/hindi/tokenizer/models/hindi_bpe_10k_final.model",
+    "per_head": [
+      {
+        "head": 0,
+        "mean_distance": 7.663842165304813,
+        "entropy": 1.907065987586975
+      },
+      {
+        "head": 1,
+        "mean_distance": 6.209797185052366,
+        "entropy": 1.0264995098114014
+      },
+      {
+        "head": 2,
+        "mean_distance": 7.087582245199269,
+        "entropy": 1.6290905475616455
+      },
+      {
+        "head": 3,
+        "mean_distance": 6.226249601141388,
+        "entropy": 0.979403555393219
+      },
+      {
+        "head": 4,
+        "mean_distance": 5.362671298451095,
+        "entropy": 1.1889135837554932
+      },
+      {
+        "head": 5,
+        "mean_distance": 6.543710116998263,
+        "entropy": 1.8125863075256348
+      },
+      {
+        "head": 6,
+        "mean_distance": 6.135602534224624,
+        "entropy": 1.5519734621047974
+      }
+    ]
+  },
+  {
+    "lang": "hindi",
+    "model_type": "finetuned",
+    "layer_name": "early",
+    "layer_idx": 0,
+    "category": "held_out",
+    "ex_idx": 0,
+    "example_id": "hindi_test_3",
+    "template_id": "H31",
+    "task_type": "transitive",
+    "attribute": "price",
+    "question_category": "price",
+    "answer": "सस्ता",
+    "seq_len": 30,
+    "mean_distance_all_heads": 5.89765013128145,
+    "entropy_all_heads": 1.8570450970104762,
+    "checkpoint_path": "/kaggle/input/notebooks/negative00/lma-phase3-hindi/results/phase3_finetune/hindi/step_00003000.pt",
+    "step": 3000,
+    "tokenizer_path": "/kaggle/input/datasets/negative00/phase2-cloud-data/hindi/tokenizer/models/hindi_bpe_10k_final.model",
+    "per_head": [
+      {
+        "head": 0,
+        "mean_distance": 6.92830269743378,
+        "entropy": 2.2989513874053955
+      },
+      {
+        "head": 1,
+        "mean_distance": 6.392264063829013,
+        "entropy": 2.062206745147705
+      },
+      {
+        "head": 2,
+        "mean_distance": 6.444715267582796,
+        "entropy": 2.151705265045166
+      },
+      {
+        "head": 3,
+        "mean_distance": 5.318919345119184,
+        "entropy": 1.3230164051055908
+      },
+      {
+        "head": 4,
+        "mean_distance": 6.899952704956134,
+        "entropy": 2.3414313793182373
+      },
+      {
+        "head": 5,
+        "mean_distance": 2.8512485417403393,
+        "entropy": 0.8581104874610901
+      },
+      {
+        "head": 6,
+        "mean_distance": 6.448148298308904,
+        "entropy": 1.963894009590149
+      }
+    ]
+  },
+  {
+    "lang": "hindi",
+    "model_type": "finetuned",
+    "layer_name": "late",
+    "layer_idx": 7,
+    "category": "held_out",
+    "ex_idx": 0,
+    "example_id": "hindi_test_3",
+    "template_id": "H31",
+    "task_type": "transitive",
+    "attribute": "price",
+    "question_category": "price",
+    "answer": "सस्ता",
+    "seq_len": 30,
+    "mean_distance_all_heads": 6.760343032440967,
+    "entropy_all_heads": 1.7281900474003382,
+    "checkpoint_path": "/kaggle/input/notebooks/negative00/lma-phase3-hindi/results/phase3_finetune/hindi/step_00003000.pt",
+    "step": 3000,
+    "tokenizer_path": "/kaggle/input/datasets/negative00/phase2-cloud-data/hindi/tokenizer/models/hindi_bpe_10k_final.model",
+    "per_head": [
+      {
+        "head": 0,
+        "mean_distance": 8.695122461311986,
+        "entropy": 2.11873459815979
+      },
+      {
+        "head": 1,
+        "mean_distance": 5.36469804548506,
+        "entropy": 1.524607539176941
+      },
+      {
+        "head": 2,
+        "mean_distance": 6.196065938707467,
+        "entropy": 1.5675634145736694
+      },
+      {
+        "head": 3,
+        "mean_distance": 8.919420664480079,
+        "entropy": 1.2087072134017944
+      },
+      {
+        "head": 4,
+        "mean_distance": 5.884020990280345,
+        "entropy": 1.873632788658142
+      },
+      {
+        "head": 5,
+        "mean_distance": 5.842136077458902,
+        "entropy": 2.081056833267212
+      },
+      {
+        "head": 6,
+        "mean_distance": 6.4209370493629345,
+        "entropy": 1.7230279445648193
+      }
+    ]
+  },
+  {
+    "lang": "hindi",
+    "model_type": "finetuned",
+    "layer_name": "early",
+    "layer_idx": 0,
+    "category": "held_out",
+    "ex_idx": 1,
+    "example_id": "hindi_test_6",
+    "template_id": "H40",
+    "task_type": "transitive",
+    "attribute": "generic_order",
+    "question_category": "generic_order",
+    "answer": "बड़ा",
+    "seq_len": 26,
+    "mean_distance_all_heads": 4.952060035894596,
+    "entropy_all_heads": 1.7096818004335677,
+    "checkpoint_path": "/kaggle/input/notebooks/negative00/lma-phase3-hindi/results/phase3_finetune/hindi/step_00003000.pt",
+    "step": 3000,
+    "tokenizer_path": "/kaggle/input/datasets/negative00/phase2-cloud-data/hindi/tokenizer/models/hindi_bpe_10k_final.model",
+    "per_head": [
+      {
+        "head": 0,
+        "mean_distance": 5.937328845764009,
+        "entropy": 2.1995115280151367
+      },
+      {
+        "head": 1,
+        "mean_distance": 5.312424362825718,
+        "entropy": 1.8015066385269165
+      },
+      {
+        "head": 2,
+        "mean_distance": 5.357655394132822,
+        "entropy": 1.9564721584320068
+      },
+      {
+        "head": 3,
+        "mean_distance": 4.358352475986662,
+        "entropy": 1.2812142372131348
+      },
+      {
+        "head": 4,
+        "mean_distance": 5.882465939503163,
+        "entropy": 2.220743417739868
+      },
+      {
+        "head": 5,
+        "mean_distance": 2.3722336676497804,
+        "entropy": 0.7226160764694214
+      },
+      {
+        "head": 6,
+        "mean_distance": 5.443959565400012,
+        "entropy": 1.7857085466384888
+      }
+    ]
+  },
+  {
+    "lang": "hindi",
+    "model_type": "finetuned",
+    "layer_name": "late",
+    "layer_idx": 7,
+    "category": "held_out",
+    "ex_idx": 1,
+    "example_id": "hindi_test_6",
+    "template_id": "H40",
+    "task_type": "transitive",
+    "attribute": "generic_order",
+    "question_category": "generic_order",
+    "answer": "बड़ा",
+    "seq_len": 26,
+    "mean_distance_all_heads": 6.954871979218889,
+    "entropy_all_heads": 1.535874366760254,
+    "checkpoint_path": "/kaggle/input/notebooks/negative00/lma-phase3-hindi/results/phase3_finetune/hindi/step_00003000.pt",
+    "step": 3000,
+    "tokenizer_path": "/kaggle/input/datasets/negative00/phase2-cloud-data/hindi/tokenizer/models/hindi_bpe_10k_final.model",
+    "per_head": [
+      {
+        "head": 0,
+        "mean_distance": 8.369392621490707,
+        "entropy": 1.9503252506256104
+      },
+      {
+        "head": 1,
+        "mean_distance": 6.649163560772133,
+        "entropy": 1.2639858722686768
+      },
+      {
+        "head": 2,
+        "mean_distance": 4.777886160494351,
+        "entropy": 1.618310809135437
+      },
+      {
+        "head": 3,
+        "mean_distance": 7.725521435806713,
+        "entropy": 1.232572078704834
+      },
+      {
+        "head": 4,
+        "mean_distance": 7.551405103723791,
+        "entropy": 0.9527223110198975
+      },
+      {
+        "head": 5,
+        "mean_distance": 6.176027403497406,
+        "entropy": 1.8476077318191528
+      },
+      {
+        "head": 6,
+        "mean_distance": 7.434707568747119,
+        "entropy": 1.885596513748169
+      }
+    ]
+  },
+  {
+    "lang": "hindi",
+    "model_type": "finetuned",
+    "layer_name": "early",
+    "layer_idx": 0,
+    "category": "held_out",
+    "ex_idx": 2,
+    "example_id": "hindi_test_7",
+    "template_id": "H40",
+    "task_type": "transitive",
+    "attribute": "generic_order",
+    "question_category": "generic_order",
+    "answer": "बड़ा",
+    "seq_len": 26,
+    "mean_distance_all_heads": 4.825616135519737,
+    "entropy_all_heads": 1.7142850245748247,
+    "checkpoint_path": "/kaggle/input/notebooks/negative00/lma-phase3-hindi/results/phase3_finetune/hindi/step_00003000.pt",
+    "step": 3000,
+    "tokenizer_path": "/kaggle/input/datasets/negative00/phase2-cloud-data/hindi/tokenizer/models/hindi_bpe_10k_final.model",
+    "per_head": [
+      {
+        "head": 0,
+        "mean_distance": 5.935884049914491,
+        "entropy": 2.197338342666626
+      },
+      {
+        "head": 1,
+        "mean_distance": 4.916905756970944,
+        "entropy": 1.8291089534759521
+      },
+      {
+        "head": 2,
+        "mean_distance": 5.411176357140693,
+        "entropy": 1.9640084505081177
+      },
+      {
+        "head": 3,
+        "mean_distance": 4.322604718999803,
+        "entropy": 1.2811696529388428
+      },
+      {
+        "head": 4,
+        "mean_distance": 5.851440463412123,
+        "entropy": 2.226914167404175
+      },
+      {
+        "head": 5,
+        "mean_distance": 2.3061244329527657,
+        "entropy": 0.7155161499977112
+      },
+      {
+        "head": 6,
+        "mean_distance": 5.035177169247338,
+        "entropy": 1.7859394550323486
+      }
+    ]
+  },
+  {
+    "lang": "hindi",
+    "model_type": "finetuned",
+    "layer_name": "late",
+    "layer_idx": 7,
+    "category": "held_out",
+    "ex_idx": 2,
+    "example_id": "hindi_test_7",
+    "template_id": "H40",
+    "task_type": "transitive",
+    "attribute": "generic_order",
+    "question_category": "generic_order",
+    "answer": "बड़ा",
+    "seq_len": 26,
+    "mean_distance_all_heads": 7.091538714110934,
+    "entropy_all_heads": 1.433206524167742,
+    "checkpoint_path": "/kaggle/input/notebooks/negative00/lma-phase3-hindi/results/phase3_finetune/hindi/step_00003000.pt",
+    "step": 3000,
+    "tokenizer_path": "/kaggle/input/datasets/negative00/phase2-cloud-data/hindi/tokenizer/models/hindi_bpe_10k_final.model",
+    "per_head": [
+      {
+        "head": 0,
+        "mean_distance": 8.299198944523456,
+        "entropy": 1.896510362625122
+      },
+      {
+        "head": 1,
+        "mean_distance": 7.225303576519181,
+        "entropy": 0.9506391882896423
+      },
+      {
+        "head": 2,
+        "mean_distance": 4.9046858935387805,
+        "entropy": 1.6053093671798706
+      },
+      {
+        "head": 3,
+        "mean_distance": 7.6682717014725545,
+        "entropy": 0.9457547664642334
+      },
+      {
+        "head": 4,
+        "mean_distance": 7.6491982420590166,
+        "entropy": 0.9747441411018372
+      },
+      {
+        "head": 5,
+        "mean_distance": 6.294411508027854,
+        "entropy": 1.785294771194458
+      },
+      {
+        "head": 6,
+        "mean_distance": 7.599701132635696,
+        "entropy": 1.8741930723190308
+      }
+    ]
+  },
+  {
+    "lang": "nepali",
+    "model_type": "pretrained",
+    "layer_name": "early",
+    "layer_idx": 0,
+    "category": "familiar",
+    "ex_idx": 0,
+    "example_id": "nepali_test_0",
+    "template_id": "N1+N1",
+    "task_type": "direct",
+    "attribute": "height",
+    "question_category": "height",
+    "answer": "विकास",
+    "seq_len": 30,
+    "mean_distance_all_heads": 6.075941892469919,
+    "entropy_all_heads": 2.128072585378374,
+    "checkpoint_path": "/kaggle/input/notebooks/negative00/notebook13f3511eed/phase2_outputs_nepali/nepali_checkpoints/step_00020000.pt",
+    "step": 20000,
+    "tokenizer_path": "/kaggle/input/datasets/negative00/phase2-cloud-data/nepali/tokenizer/models/nepali_bpe_10k_assignment.model",
+    "per_head": [
+      {
+        "head": 0,
+        "mean_distance": 6.8238356597876795,
+        "entropy": 2.3278090953826904
+      },
+      {
+        "head": 1,
+        "mean_distance": 6.6677191411533085,
+        "entropy": 2.279829263687134
+      },
+      {
+        "head": 2,
+        "mean_distance": 6.081808931458121,
+        "entropy": 2.2064146995544434
+      },
+      {
+        "head": 3,
+        "mean_distance": 5.530899903837902,
+        "entropy": 2.1275246143341064
+      },
+      {
+        "head": 4,
+        "mean_distance": 6.3351112924102075,
+        "entropy": 2.0443246364593506
+      },
+      {
+        "head": 5,
+        "mean_distance": 4.439151944831732,
+        "entropy": 1.7136603593826294
+      },
+      {
+        "head": 6,
+        "mean_distance": 6.653066373810483,
+        "entropy": 2.1969454288482666
+      }
+    ]
+  },
+  {
+    "lang": "nepali",
+    "model_type": "pretrained",
+    "layer_name": "late",
+    "layer_idx": 7,
+    "category": "familiar",
+    "ex_idx": 0,
+    "example_id": "nepali_test_0",
+    "template_id": "N1+N1",
+    "task_type": "direct",
+    "attribute": "height",
+    "question_category": "height",
+    "answer": "विकास",
+    "seq_len": 30,
+    "mean_distance_all_heads": 6.689099567982702,
+    "entropy_all_heads": 1.9639774390629359,
+    "checkpoint_path": "/kaggle/input/notebooks/negative00/notebook13f3511eed/phase2_outputs_nepali/nepali_checkpoints/step_00020000.pt",
+    "step": 20000,
+    "tokenizer_path": "/kaggle/input/datasets/negative00/phase2-cloud-data/nepali/tokenizer/models/nepali_bpe_10k_assignment.model",
+    "per_head": [
+      {
+        "head": 0,
+        "mean_distance": 7.948806059019019,
+        "entropy": 2.127448797225952
+      },
+      {
+        "head": 1,
+        "mean_distance": 6.081429963514771,
+        "entropy": 1.7282336950302124
+      },
+      {
+        "head": 2,
+        "mean_distance": 7.029922364764691,
+        "entropy": 2.1378471851348877
+      },
+      {
+        "head": 3,
+        "mean_distance": 6.665893154894002,
+        "entropy": 2.3353841304779053
+      },
+      {
+        "head": 4,
+        "mean_distance": 6.88743834386114,
+        "entropy": 2.0655744075775146
+      },
+      {
+        "head": 5,
+        "mean_distance": 5.693879118217228,
+        "entropy": 1.7708985805511475
+      },
+      {
+        "head": 6,
+        "mean_distance": 6.516327971608067,
+        "entropy": 1.5824552774429321
+      }
+    ]
+  },
+  {
+    "lang": "nepali",
+    "model_type": "pretrained",
+    "layer_name": "early",
+    "layer_idx": 0,
+    "category": "familiar",
+    "ex_idx": 1,
+    "example_id": "nepali_test_4",
+    "template_id": "N19",
+    "task_type": "direct",
+    "attribute": "age",
+    "question_category": "age",
+    "answer": "संगीता",
+    "seq_len": 30,
+    "mean_distance_all_heads": 6.034783617236601,
+    "entropy_all_heads": 2.138969506536211,
+    "checkpoint_path": "/kaggle/input/notebooks/negative00/notebook13f3511eed/phase2_outputs_nepali/nepali_checkpoints/step_00020000.pt",
+    "step": 20000,
+    "tokenizer_path": "/kaggle/input/datasets/negative00/phase2-cloud-data/nepali/tokenizer/models/nepali_bpe_10k_assignment.model",
+    "per_head": [
+      {
+        "head": 0,
+        "mean_distance": 6.825509577213476,
+        "entropy": 2.3327887058258057
+      },
+      {
+        "head": 1,
+        "mean_distance": 6.680102307217506,
+        "entropy": 2.2671468257904053
+      },
+      {
+        "head": 2,
+        "mean_distance": 6.33790565948002,
+        "entropy": 2.2220394611358643
+      },
+      {
+        "head": 3,
+        "mean_distance": 5.044576883246191,
+        "entropy": 1.981444239616394
+      },
+      {
+        "head": 4,
+        "mean_distance": 6.330370425117265,
+        "entropy": 2.118546962738037
+      },
+      {
+        "head": 5,
+        "mean_distance": 4.209945245280445,
+        "entropy": 1.7286601066589355
+      },
+      {
+        "head": 6,
+        "mean_distance": 6.815075223101303,
+        "entropy": 2.322160243988037
+      }
+    ]
+  },
+  {
+    "lang": "nepali",
+    "model_type": "pretrained",
+    "layer_name": "late",
+    "layer_idx": 7,
+    "category": "familiar",
+    "ex_idx": 1,
+    "example_id": "nepali_test_4",
+    "template_id": "N19",
+    "task_type": "direct",
+    "attribute": "age",
+    "question_category": "age",
+    "answer": "संगीता",
+    "seq_len": 30,
+    "mean_distance_all_heads": 6.716389685118304,
+    "entropy_all_heads": 1.966246587889535,
+    "checkpoint_path": "/kaggle/input/notebooks/negative00/notebook13f3511eed/phase2_outputs_nepali/nepali_checkpoints/step_00020000.pt",
+    "step": 20000,
+    "tokenizer_path": "/kaggle/input/datasets/negative00/phase2-cloud-data/nepali/tokenizer/models/nepali_bpe_10k_assignment.model",
+    "per_head": [
+      {
+        "head": 0,
+        "mean_distance": 7.711932007091431,
+        "entropy": 1.916884183883667
+      },
+      {
+        "head": 1,
+        "mean_distance": 6.791666079191297,
+        "entropy": 2.0422751903533936
+      },
+      {
+        "head": 2,
+        "mean_distance": 6.3761916327911115,
+        "entropy": 2.0957772731781006
+      },
+      {
+        "head": 3,
+        "mean_distance": 6.512495530187152,
+        "entropy": 2.222672462463379
+      },
+      {
+        "head": 4,
+        "mean_distance": 7.725096319245252,
+        "entropy": 1.9207724332809448
+      },
+      {
+        "head": 5,
+        "mean_distance": 5.848542864519792,
+        "entropy": 2.074489116668701
+      },
+      {
+        "head": 6,
+        "mean_distance": 6.048803362802088,
+        "entropy": 1.4908554553985596
+      }
+    ]
+  },
+  {
+    "lang": "nepali",
+    "model_type": "pretrained",
+    "layer_name": "early",
+    "layer_idx": 0,
+    "category": "familiar",
+    "ex_idx": 2,
+    "example_id": "nepali_test_7",
+    "template_id": "N32",
+    "task_type": "attribute",
+    "attribute": "quantity",
+    "question_category": "possession_count",
+    "answer": "विकास",
+    "seq_len": 36,
+    "mean_distance_all_heads": 7.446964774217966,
+    "entropy_all_heads": 2.2566185167857578,
+    "checkpoint_path": "/kaggle/input/notebooks/negative00/notebook13f3511eed/phase2_outputs_nepali/nepali_checkpoints/step_00020000.pt",
+    "step": 20000,
+    "tokenizer_path": "/kaggle/input/datasets/negative00/phase2-cloud-data/nepali/tokenizer/models/nepali_bpe_10k_assignment.model",
+    "per_head": [
+      {
+        "head": 0,
+        "mean_distance": 8.276493682053923,
+        "entropy": 2.4844603538513184
+      },
+      {
+        "head": 1,
+        "mean_distance": 8.505572865781788,
+        "entropy": 2.4555094242095947
+      },
+      {
+        "head": 2,
+        "mean_distance": 7.5011977484941275,
+        "entropy": 2.335983991622925
+      },
+      {
+        "head": 3,
+        "mean_distance": 6.291455929261348,
+        "entropy": 2.1981797218322754
+      },
+      {
+        "head": 4,
+        "mean_distance": 7.813356907688255,
+        "entropy": 1.9427133798599243
+      },
+      {
+        "head": 5,
+        "mean_distance": 5.887034406381847,
+        "entropy": 1.9710898399353027
+      },
+      {
+        "head": 6,
+        "mean_distance": 7.853641879864477,
+        "entropy": 2.408392906188965
+      }
+    ]
+  },
+  {
+    "lang": "nepali",
+    "model_type": "pretrained",
+    "layer_name": "late",
+    "layer_idx": 7,
+    "category": "familiar",
+    "ex_idx": 2,
+    "example_id": "nepali_test_7",
+    "template_id": "N32",
+    "task_type": "attribute",
+    "attribute": "quantity",
+    "question_category": "possession_count",
+    "answer": "विकास",
+    "seq_len": 36,
+    "mean_distance_all_heads": 9.070238852440374,
+    "entropy_all_heads": 1.9001752478735787,
+    "checkpoint_path": "/kaggle/input/notebooks/negative00/notebook13f3511eed/phase2_outputs_nepali/nepali_checkpoints/step_00020000.pt",
+    "step": 20000,
+    "tokenizer_path": "/kaggle/input/datasets/negative00/phase2-cloud-data/nepali/tokenizer/models/nepali_bpe_10k_assignment.model",
+    "per_head": [
+      {
+        "head": 0,
+        "mean_distance": 9.86644536058394,
+        "entropy": 1.5423537492752075
+      },
+      {
+        "head": 1,
+        "mean_distance": 8.102043088499158,
+        "entropy": 1.799115538597107
+      },
+      {
+        "head": 2,
+        "mean_distance": 8.378715739313824,
+        "entropy": 2.343883991241455
+      },
+      {
+        "head": 3,
+        "mean_distance": 9.437647226382978,
+        "entropy": 2.3121581077575684
+      },
+      {
+        "head": 4,
+        "mean_distance": 10.044866207647525,
+        "entropy": 1.9946000576019287
+      },
+      {
+        "head": 5,
+        "mean_distance": 8.867560990436536,
+        "entropy": 1.854311227798462
+      },
+      {
+        "head": 6,
+        "mean_distance": 8.794393354218654,
+        "entropy": 1.4548040628433228
+      }
+    ]
+  },
+  {
+    "lang": "nepali",
+    "model_type": "pretrained",
+    "layer_name": "early",
+    "layer_idx": 0,
+    "category": "held_out",
+    "ex_idx": 0,
+    "example_id": "nepali_test_1",
+    "template_id": "N40",
+    "task_type": "transitive",
+    "attribute": "generic_order",
+    "question_category": "generic_order",
+    "answer": "ठूलो",
+    "seq_len": 28,
+    "mean_distance_all_heads": 5.511643336774059,
+    "entropy_all_heads": 2.0406851938792636,
+    "checkpoint_path": "/kaggle/input/notebooks/negative00/notebook13f3511eed/phase2_outputs_nepali/nepali_checkpoints/step_00020000.pt",
+    "step": 20000,
+    "tokenizer_path": "/kaggle/input/datasets/negative00/phase2-cloud-data/nepali/tokenizer/models/nepali_bpe_10k_assignment.model",
+    "per_head": [
+      {
+        "head": 0,
+        "mean_distance": 6.2133235894476195,
+        "entropy": 2.261768102645874
+      },
+      {
+        "head": 1,
+        "mean_distance": 5.936790662751134,
+        "entropy": 2.182304620742798
+      },
+      {
+        "head": 2,
+        "mean_distance": 5.467694619836818,
+        "entropy": 2.136730909347534
+      },
+      {
+        "head": 3,
+        "mean_distance": 4.741980122558224,
+        "entropy": 1.8783597946166992
+      },
+      {
+        "head": 4,
+        "mean_distance": 5.893807207604531,
+        "entropy": 2.047271728515625
+      },
+      {
+        "head": 5,
+        "mean_distance": 4.014156103818095,
+        "entropy": 1.5852431058883667
+      },
+      {
+        "head": 6,
+        "mean_distance": 6.313751051401986,
+        "entropy": 2.193118095397949
+      }
+    ]
+  },
+  {
+    "lang": "nepali",
+    "model_type": "pretrained",
+    "layer_name": "late",
+    "layer_idx": 7,
+    "category": "held_out",
+    "ex_idx": 0,
+    "example_id": "nepali_test_1",
+    "template_id": "N40",
+    "task_type": "transitive",
+    "attribute": "generic_order",
+    "question_category": "generic_order",
+    "answer": "ठूलो",
+    "seq_len": 28,
+    "mean_distance_all_heads": 6.317068669208615,
+    "entropy_all_heads": 1.731565339224679,
+    "checkpoint_path": "/kaggle/input/notebooks/negative00/notebook13f3511eed/phase2_outputs_nepali/nepali_checkpoints/step_00020000.pt",
+    "step": 20000,
+    "tokenizer_path": "/kaggle/input/datasets/negative00/phase2-cloud-data/nepali/tokenizer/models/nepali_bpe_10k_assignment.model",
+    "per_head": [
+      {
+        "head": 0,
+        "mean_distance": 6.405221443977161,
+        "entropy": 1.536091923713684
+      },
+      {
+        "head": 1,
+        "mean_distance": 5.921034633194992,
+        "entropy": 1.5404900312423706
+      },
+      {
+        "head": 2,
+        "mean_distance": 6.8171629565851095,
+        "entropy": 2.069298028945923
+      },
+      {
+        "head": 3,
+        "mean_distance": 6.210697397951923,
+        "entropy": 2.221886396408081
+      },
+      {
+        "head": 4,
+        "mean_distance": 6.672621037421332,
+        "entropy": 1.2577039003372192
+      },
+      {
+        "head": 5,
+        "mean_distance": 5.849528079712139,
+        "entropy": 1.9363892078399658
+      },
+      {
+        "head": 6,
+        "mean_distance": 6.3432151356176485,
+        "entropy": 1.5590978860855103
+      }
+    ]
+  },
+  {
+    "lang": "nepali",
+    "model_type": "pretrained",
+    "layer_name": "early",
+    "layer_idx": 0,
+    "category": "held_out",
+    "ex_idx": 1,
+    "example_id": "nepali_test_2",
+    "template_id": "N40",
+    "task_type": "transitive",
+    "attribute": "generic_order",
+    "question_category": "generic_order",
+    "answer": "ठूलो",
+    "seq_len": 32,
+    "mean_distance_all_heads": 6.478806546379608,
+    "entropy_all_heads": 2.1860665593828474,
+    "checkpoint_path": "/kaggle/input/notebooks/negative00/notebook13f3511eed/phase2_outputs_nepali/nepali_checkpoints/step_00020000.pt",
+    "step": 20000,
+    "tokenizer_path": "/kaggle/input/datasets/negative00/phase2-cloud-data/nepali/tokenizer/models/nepali_bpe_10k_assignment.model",
+    "per_head": [
+      {
+        "head": 0,
+        "mean_distance": 7.361244412706583,
+        "entropy": 2.388646125793457
+      },
+      {
+        "head": 1,
+        "mean_distance": 6.9967340386647265,
+        "entropy": 2.3253889083862305
+      },
+      {
+        "head": 2,
+        "mean_distance": 6.5807650254282635,
+        "entropy": 2.259150981903076
+      },
+      {
+        "head": 3,
+        "mean_distance": 5.419702207476803,
+        "entropy": 1.9891316890716553
+      },
+      {
+        "head": 4,
+        "mean_distance": 6.679060881429024,
+        "entropy": 2.1491949558258057
+      },
+      {
+        "head": 5,
+        "mean_distance": 5.337615678194652,
+        "entropy": 1.8505828380584717
+      },
+      {
+        "head": 6,
+        "mean_distance": 6.976523580757203,
+        "entropy": 2.3403704166412354
+      }
+    ]
+  },
+  {
+    "lang": "nepali",
+    "model_type": "pretrained",
+    "layer_name": "late",
+    "layer_idx": 7,
+    "category": "held_out",
+    "ex_idx": 1,
+    "example_id": "nepali_test_2",
+    "template_id": "N40",
+    "task_type": "transitive",
+    "attribute": "generic_order",
+    "question_category": "generic_order",
+    "answer": "ठूलो",
+    "seq_len": 32,
+    "mean_distance_all_heads": 7.3312647800455455,
+    "entropy_all_heads": 1.8769793340138026,
+    "checkpoint_path": "/kaggle/input/notebooks/negative00/notebook13f3511eed/phase2_outputs_nepali/nepali_checkpoints/step_00020000.pt",
+    "step": 20000,
+    "tokenizer_path": "/kaggle/input/datasets/negative00/phase2-cloud-data/nepali/tokenizer/models/nepali_bpe_10k_assignment.model",
+    "per_head": [
+      {
+        "head": 0,
+        "mean_distance": 6.9852165899522625,
+        "entropy": 1.7593036890029907
+      },
+      {
+        "head": 1,
+        "mean_distance": 6.117274129990018,
+        "entropy": 1.672412633895874
+      },
+      {
+        "head": 2,
+        "mean_distance": 8.140135892877879,
+        "entropy": 2.2675881385803223
+      },
+      {
+        "head": 3,
+        "mean_distance": 7.648101528478037,
+        "entropy": 2.338315486907959
+      },
+      {
+        "head": 4,
+        "mean_distance": 7.752971197710924,
+        "entropy": 1.5024149417877197
+      },
+      {
+        "head": 5,
+        "mean_distance": 6.93644817733184,
+        "entropy": 2.0465433597564697
+      },
+      {
+        "head": 6,
+        "mean_distance": 7.7387059439778625,
+        "entropy": 1.5522770881652832
+      }
+    ]
+  },
+  {
+    "lang": "nepali",
+    "model_type": "pretrained",
+    "layer_name": "early",
+    "layer_idx": 0,
+    "category": "held_out",
+    "ex_idx": 2,
+    "example_id": "nepali_test_3",
+    "template_id": "N31",
+    "task_type": "transitive",
+    "attribute": "price",
+    "question_category": "price",
+    "answer": "सस्तो",
+    "seq_len": 36,
+    "mean_distance_all_heads": 7.526592803103988,
+    "entropy_all_heads": 2.297384892191206,
+    "checkpoint_path": "/kaggle/input/notebooks/negative00/notebook13f3511eed/phase2_outputs_nepali/nepali_checkpoints/step_00020000.pt",
+    "step": 20000,
+    "tokenizer_path": "/kaggle/input/datasets/negative00/phase2-cloud-data/nepali/tokenizer/models/nepali_bpe_10k_assignment.model",
+    "per_head": [
+      {
+        "head": 0,
+        "mean_distance": 8.367789062302714,
+        "entropy": 2.497614860534668
+      },
+      {
+        "head": 1,
+        "mean_distance": 8.133313179243284,
+        "entropy": 2.44531512260437
+      },
+      {
+        "head": 2,
+        "mean_distance": 7.4618417444224985,
+        "entropy": 2.3804619312286377
+      },
+      {
+        "head": 3,
+        "mean_distance": 6.5565602208743154,
+        "entropy": 2.1277194023132324
+      },
+      {
+        "head": 4,
+        "mean_distance": 7.820561295225717,
+        "entropy": 2.236609935760498
+      },
+      {
+        "head": 5,
+        "mean_distance": 6.468950643143823,
+        "entropy": 1.95744788646698
+      },
+      {
+        "head": 6,
+        "mean_distance": 7.877133476515559,
+        "entropy": 2.4365251064300537
+      }
+    ]
+  },
+  {
+    "lang": "nepali",
+    "model_type": "pretrained",
+    "layer_name": "late",
+    "layer_idx": 7,
+    "category": "held_out",
+    "ex_idx": 2,
+    "example_id": "nepali_test_3",
+    "template_id": "N31",
+    "task_type": "transitive",
+    "attribute": "price",
+    "question_category": "price",
+    "answer": "सस्तो",
+    "seq_len": 36,
+    "mean_distance_all_heads": 8.818987275502664,
+    "entropy_all_heads": 1.9810602154050554,
+    "checkpoint_path": "/kaggle/input/notebooks/negative00/notebook13f3511eed/phase2_outputs_nepali/nepali_checkpoints/step_00020000.pt",
+    "step": 20000,
+    "tokenizer_path": "/kaggle/input/datasets/negative00/phase2-cloud-data/nepali/tokenizer/models/nepali_bpe_10k_assignment.model",
+    "per_head": [
+      {
+        "head": 0,
+        "mean_distance": 9.612083008392597,
+        "entropy": 1.9348500967025757
+      },
+      {
+        "head": 1,
+        "mean_distance": 8.559287308161224,
+        "entropy": 1.8711344003677368
+      },
+      {
+        "head": 2,
+        "mean_distance": 9.247968176740365,
+        "entropy": 2.204523801803589
+      },
+      {
+        "head": 3,
+        "mean_distance": 9.913976656819512,
+        "entropy": 2.4145896434783936
+      },
+      {
+        "head": 4,
+        "mean_distance": 8.433839046823831,
+        "entropy": 1.70026695728302
+      },
+      {
+        "head": 5,
+        "mean_distance": 7.392145484769925,
+        "entropy": 2.1050865650177
+      },
+      {
+        "head": 6,
+        "mean_distance": 8.573611246811197,
+        "entropy": 1.636970043182373
+      }
+    ]
+  },
+  {
+    "lang": "nepali",
+    "model_type": "finetuned",
+    "layer_name": "early",
+    "layer_idx": 0,
+    "category": "familiar",
+    "ex_idx": 0,
+    "example_id": "nepali_test_0",
+    "template_id": "N1+N1",
+    "task_type": "direct",
+    "attribute": "height",
+    "question_category": "height",
+    "answer": "विकास",
+    "seq_len": 30,
+    "mean_distance_all_heads": 6.183954254875304,
+    "entropy_all_heads": 2.1101490599768504,
+    "checkpoint_path": "/kaggle/input/notebooks/negative00/lma-phase3-nepali/results/phase3_finetune/nepali/step_00003000.pt",
+    "step": 3000,
+    "tokenizer_path": "/kaggle/input/datasets/negative00/phase2-cloud-data/nepali/tokenizer/models/nepali_bpe_10k_assignment.model",
+    "per_head": [
+      {
+        "head": 0,
+        "mean_distance": 6.771018357838814,
+        "entropy": 2.3348639011383057
+      },
+      {
+        "head": 1,
+        "mean_distance": 6.450174087181222,
+        "entropy": 2.263866901397705
+      },
+      {
+        "head": 2,
+        "mean_distance": 6.239292498414094,
+        "entropy": 2.1930177211761475
+      },
+      {
+        "head": 3,
+        "mean_distance": 6.054425838085202,
+        "entropy": 2.0872256755828857
+      },
+      {
+        "head": 4,
+        "mean_distance": 6.176842663448406,
+        "entropy": 2.030012369155884
+      },
+      {
+        "head": 5,
+        "mean_distance": 5.179906966773463,
+        "entropy": 1.788507342338562
+      },
+      {
+        "head": 6,
+        "mean_distance": 6.416019372385927,
+        "entropy": 2.073549509048462
+      }
+    ]
+  },
+  {
+    "lang": "nepali",
+    "model_type": "finetuned",
+    "layer_name": "late",
+    "layer_idx": 7,
+    "category": "familiar",
+    "ex_idx": 0,
+    "example_id": "nepali_test_0",
+    "template_id": "N1+N1",
+    "task_type": "direct",
+    "attribute": "height",
+    "question_category": "height",
+    "answer": "विकास",
+    "seq_len": 30,
+    "mean_distance_all_heads": 5.972082123722195,
+    "entropy_all_heads": 1.4160342812538147,
+    "checkpoint_path": "/kaggle/input/notebooks/negative00/lma-phase3-nepali/results/phase3_finetune/nepali/step_00003000.pt",
+    "step": 3000,
+    "tokenizer_path": "/kaggle/input/datasets/negative00/phase2-cloud-data/nepali/tokenizer/models/nepali_bpe_10k_assignment.model",
+    "per_head": [
+      {
+        "head": 0,
+        "mean_distance": 5.254459140533955,
+        "entropy": 1.3548541069030762
+      },
+      {
+        "head": 1,
+        "mean_distance": 7.689031748388681,
+        "entropy": 1.1750308275222778
+      },
+      {
+        "head": 2,
+        "mean_distance": 5.010039342430317,
+        "entropy": 1.3291460275650024
+      },
+      {
+        "head": 3,
+        "mean_distance": 5.331608148480354,
+        "entropy": 1.5284249782562256
+      },
+      {
+        "head": 4,
+        "mean_distance": 5.742610362727131,
+        "entropy": 1.6354906558990479
+      },
+      {
+        "head": 5,
+        "mean_distance": 5.0618670161532435,
+        "entropy": 0.9901732802391052
+      },
+      {
+        "head": 6,
+        "mean_distance": 7.714959107341686,
+        "entropy": 1.8991200923919678
+      }
+    ]
+  },
+  {
+    "lang": "nepali",
+    "model_type": "finetuned",
+    "layer_name": "early",
+    "layer_idx": 0,
+    "category": "familiar",
+    "ex_idx": 1,
+    "example_id": "nepali_test_4",
+    "template_id": "N19",
+    "task_type": "direct",
+    "attribute": "age",
+    "question_category": "age",
+    "answer": "संगीता",
+    "seq_len": 30,
+    "mean_distance_all_heads": 6.201601217128718,
+    "entropy_all_heads": 2.112267868859427,
+    "checkpoint_path": "/kaggle/input/notebooks/negative00/lma-phase3-nepali/results/phase3_finetune/nepali/step_00003000.pt",
+    "step": 3000,
+    "tokenizer_path": "/kaggle/input/datasets/negative00/phase2-cloud-data/nepali/tokenizer/models/nepali_bpe_10k_assignment.model",
+    "per_head": [
+      {
+        "head": 0,
+        "mean_distance": 6.7327725389196225,
+        "entropy": 2.3376476764678955
+      },
+      {
+        "head": 1,
+        "mean_distance": 6.550240415272613,
+        "entropy": 2.23356032371521
+      },
+      {
+        "head": 2,
+        "mean_distance": 6.584452463927058,
+        "entropy": 2.181246519088745
+      },
+      {
+        "head": 3,
+        "mean_distance": 5.663199332197352,
+        "entropy": 1.9786309003829956
+      },
+      {
+        "head": 4,
+        "mean_distance": 6.236904546663815,
+        "entropy": 2.0039265155792236
+      },
+      {
+        "head": 5,
+        "mean_distance": 4.856112037342973,
+        "entropy": 1.7768665552139282
+      },
+      {
+        "head": 6,
+        "mean_distance": 6.787527185577589,
+        "entropy": 2.273996591567993
+      }
+    ]
+  },
+  {
+    "lang": "nepali",
+    "model_type": "finetuned",
+    "layer_name": "late",
+    "layer_idx": 7,
+    "category": "familiar",
+    "ex_idx": 1,
+    "example_id": "nepali_test_4",
+    "template_id": "N19",
+    "task_type": "direct",
+    "attribute": "age",
+    "question_category": "age",
+    "answer": "संगीता",
+    "seq_len": 30,
+    "mean_distance_all_heads": 7.87138819223811,
+    "entropy_all_heads": 1.46739205292293,
+    "checkpoint_path": "/kaggle/input/notebooks/negative00/lma-phase3-nepali/results/phase3_finetune/nepali/step_00003000.pt",
+    "step": 3000,
+    "tokenizer_path": "/kaggle/input/datasets/negative00/phase2-cloud-data/nepali/tokenizer/models/nepali_bpe_10k_assignment.model",
+    "per_head": [
+      {
+        "head": 0,
+        "mean_distance": 6.789297026637202,
+        "entropy": 1.6104025840759277
+      },
+      {
+        "head": 1,
+        "mean_distance": 7.603971987777353,
+        "entropy": 1.4070420265197754
+      },
+      {
+        "head": 2,
+        "mean_distance": 5.424520401666306,
+        "entropy": 1.3026376962661743
+      },
+      {
+        "head": 3,
+        "mean_distance": 8.110662020619706,
+        "entropy": 1.2747844457626343
+      },
+      {
+        "head": 4,
+        "mean_distance": 8.846239233368397,
+        "entropy": 1.7614986896514893
+      },
+      {
+        "head": 5,
+        "mean_distance": 7.522206406111946,
+        "entropy": 1.3633301258087158
+      },
+      {
+        "head": 6,
+        "mean_distance": 10.802820269485862,
+        "entropy": 1.5520488023757935
+      }
+    ]
+  },
+  {
+    "lang": "nepali",
+    "model_type": "finetuned",
+    "layer_name": "early",
+    "layer_idx": 0,
+    "category": "familiar",
+    "ex_idx": 2,
+    "example_id": "nepali_test_7",
+    "template_id": "N32",
+    "task_type": "attribute",
+    "attribute": "quantity",
+    "question_category": "possession_count",
+    "answer": "विकास",
+    "seq_len": 36,
+    "mean_distance_all_heads": 7.630255585853017,
+    "entropy_all_heads": 2.273862157549177,
+    "checkpoint_path": "/kaggle/input/notebooks/negative00/lma-phase3-nepali/results/phase3_finetune/nepali/step_00003000.pt",
+    "step": 3000,
+    "tokenizer_path": "/kaggle/input/datasets/negative00/phase2-cloud-data/nepali/tokenizer/models/nepali_bpe_10k_assignment.model",
+    "per_head": [
+      {
+        "head": 0,
+        "mean_distance": 8.115523834221271,
+        "entropy": 2.4937617778778076
+      },
+      {
+        "head": 1,
+        "mean_distance": 8.463542475588232,
+        "entropy": 2.435058116912842
+      },
+      {
+        "head": 2,
+        "mean_distance": 8.12933636594486,
+        "entropy": 2.394383668899536
+      },
+      {
+        "head": 3,
+        "mean_distance": 6.8921487233989565,
+        "entropy": 2.250058889389038
+      },
+      {
+        "head": 4,
+        "mean_distance": 7.346852373489684,
+        "entropy": 1.939037799835205
+      },
+      {
+        "head": 5,
+        "mean_distance": 6.615701836409749,
+        "entropy": 2.021548271179199
+      },
+      {
+        "head": 6,
+        "mean_distance": 7.8486834919183615,
+        "entropy": 2.3831865787506104
+      }
+    ]
+  },
+  {
+    "lang": "nepali",
+    "model_type": "finetuned",
+    "layer_name": "late",
+    "layer_idx": 7,
+    "category": "familiar",
+    "ex_idx": 2,
+    "example_id": "nepali_test_7",
+    "template_id": "N32",
+    "task_type": "attribute",
+    "attribute": "quantity",
+    "question_category": "possession_count",
+    "answer": "विकास",
+    "seq_len": 36,
+    "mean_distance_all_heads": 8.427414376373607,
+    "entropy_all_heads": 1.7856953144073486,
+    "checkpoint_path": "/kaggle/input/notebooks/negative00/lma-phase3-nepali/results/phase3_finetune/nepali/step_00003000.pt",
+    "step": 3000,
+    "tokenizer_path": "/kaggle/input/datasets/negative00/phase2-cloud-data/nepali/tokenizer/models/nepali_bpe_10k_assignment.model",
+    "per_head": [
+      {
+        "head": 0,
+        "mean_distance": 8.459533337553593,
+        "entropy": 1.9674257040023804
+      },
+      {
+        "head": 1,
+        "mean_distance": 12.368949944146696,
+        "entropy": 1.0072460174560547
+      },
+      {
+        "head": 2,
+        "mean_distance": 8.016312875910394,
+        "entropy": 1.8088103532791138
+      },
+      {
+        "head": 3,
+        "mean_distance": 6.704161386575101,
+        "entropy": 1.9672834873199463
+      },
+      {
+        "head": 4,
+        "mean_distance": 8.922419865992904,
+        "entropy": 2.147129535675049
+      },
+      {
+        "head": 5,
+        "mean_distance": 4.927837289245973,
+        "entropy": 1.5244576930999756
+      },
+      {
+        "head": 6,
+        "mean_distance": 9.592685935190579,
+        "entropy": 2.077514410018921
+      }
+    ]
+  },
+  {
+    "lang": "nepali",
+    "model_type": "finetuned",
+    "layer_name": "early",
+    "layer_idx": 0,
+    "category": "held_out",
+    "ex_idx": 0,
+    "example_id": "nepali_test_1",
+    "template_id": "N40",
+    "task_type": "transitive",
+    "attribute": "generic_order",
+    "question_category": "generic_order",
+    "answer": "ठूलो",
+    "seq_len": 28,
+    "mean_distance_all_heads": 5.628828918112478,
+    "entropy_all_heads": 2.0060506548200334,
+    "checkpoint_path": "/kaggle/input/notebooks/negative00/lma-phase3-nepali/results/phase3_finetune/nepali/step_00003000.pt",
+    "step": 3000,
+    "tokenizer_path": "/kaggle/input/datasets/negative00/phase2-cloud-data/nepali/tokenizer/models/nepali_bpe_10k_assignment.model",
+    "per_head": [
+      {
+        "head": 0,
+        "mean_distance": 6.124139915877355,
+        "entropy": 2.259695529937744
+      },
+      {
+        "head": 1,
+        "mean_distance": 5.680603355896892,
+        "entropy": 2.15142560005188
+      },
+      {
+        "head": 2,
+        "mean_distance": 5.6656800145615955,
+        "entropy": 2.0826923847198486
+      },
+      {
+        "head": 3,
+        "mean_distance": 5.354093834551463,
+        "entropy": 1.7698458433151245
+      },
+      {
+        "head": 4,
+        "mean_distance": 5.872698076245699,
+        "entropy": 1.9910145998001099
+      },
+      {
+        "head": 5,
+        "mean_distance": 4.644846659845955,
+        "entropy": 1.639206886291504
+      },
+      {
+        "head": 6,
+        "mean_distance": 6.059740569808388,
+        "entropy": 2.1484737396240234
+      }
+    ]
+  },
+  {
+    "lang": "nepali",
+    "model_type": "finetuned",
+    "layer_name": "late",
+    "layer_idx": 7,
+    "category": "held_out",
+    "ex_idx": 0,
+    "example_id": "nepali_test_1",
+    "template_id": "N40",
+    "task_type": "transitive",
+    "attribute": "generic_order",
+    "question_category": "generic_order",
+    "answer": "ठूलो",
+    "seq_len": 28,
+    "mean_distance_all_heads": 6.363325870532713,
+    "entropy_all_heads": 1.212353459426335,
+    "checkpoint_path": "/kaggle/input/notebooks/negative00/lma-phase3-nepali/results/phase3_finetune/nepali/step_00003000.pt",
+    "step": 3000,
+    "tokenizer_path": "/kaggle/input/datasets/negative00/phase2-cloud-data/nepali/tokenizer/models/nepali_bpe_10k_assignment.model",
+    "per_head": [
+      {
+        "head": 0,
+        "mean_distance": 6.078131262135458,
+        "entropy": 1.2047713994979858
+      },
+      {
+        "head": 1,
+        "mean_distance": 7.581537251140011,
+        "entropy": 1.1550151109695435
+      },
+      {
+        "head": 2,
+        "mean_distance": 4.525918323854504,
+        "entropy": 0.8945541977882385
+      },
+      {
+        "head": 3,
+        "mean_distance": 6.757383091145296,
+        "entropy": 1.1337403059005737
+      },
+      {
+        "head": 4,
+        "mean_distance": 7.588114617261888,
+        "entropy": 1.4346392154693604
+      },
+      {
+        "head": 5,
+        "mean_distance": 5.055100896197162,
+        "entropy": 1.1699520349502563
+      },
+      {
+        "head": 6,
+        "mean_distance": 6.957095651994673,
+        "entropy": 1.4938019514083862
+      }
+    ]
+  },
+  {
+    "lang": "nepali",
+    "model_type": "finetuned",
+    "layer_name": "early",
+    "layer_idx": 0,
+    "category": "held_out",
+    "ex_idx": 1,
+    "example_id": "nepali_test_2",
+    "template_id": "N40",
+    "task_type": "transitive",
+    "attribute": "generic_order",
+    "question_category": "generic_order",
+    "answer": "ठूलो",
+    "seq_len": 32,
+    "mean_distance_all_heads": 6.603814875370452,
+    "entropy_all_heads": 2.160428898675101,
+    "checkpoint_path": "/kaggle/input/notebooks/negative00/lma-phase3-nepali/results/phase3_finetune/nepali/step_00003000.pt",
+    "step": 3000,
+    "tokenizer_path": "/kaggle/input/datasets/negative00/phase2-cloud-data/nepali/tokenizer/models/nepali_bpe_10k_assignment.model",
+    "per_head": [
+      {
+        "head": 0,
+        "mean_distance": 7.296474588241836,
+        "entropy": 2.4053611755371094
+      },
+      {
+        "head": 1,
+        "mean_distance": 6.786734066792633,
+        "entropy": 2.290083408355713
+      },
+      {
+        "head": 2,
+        "mean_distance": 6.862078836478759,
+        "entropy": 2.237948179244995
+      },
+      {
+        "head": 3,
+        "mean_distance": 5.856246621497348,
+        "entropy": 1.9224815368652344
+      },
+      {
+        "head": 4,
+        "mean_distance": 6.750328103484321,
+        "entropy": 2.106494903564453
+      },
+      {
+        "head": 5,
+        "mean_distance": 5.971610158419139,
+        "entropy": 1.8699138164520264
+      },
+      {
+        "head": 6,
+        "mean_distance": 6.70323175267913,
+        "entropy": 2.2907192707061768
+      }
+    ]
+  },
+  {
+    "lang": "nepali",
+    "model_type": "finetuned",
+    "layer_name": "late",
+    "layer_idx": 7,
+    "category": "held_out",
+    "ex_idx": 1,
+    "example_id": "nepali_test_2",
+    "template_id": "N40",
+    "task_type": "transitive",
+    "attribute": "generic_order",
+    "question_category": "generic_order",
+    "answer": "ठूलो",
+    "seq_len": 32,
+    "mean_distance_all_heads": 6.482515176831612,
+    "entropy_all_heads": 1.192986513887133,
+    "checkpoint_path": "/kaggle/input/notebooks/negative00/lma-phase3-nepali/results/phase3_finetune/nepali/step_00003000.pt",
+    "step": 3000,
+    "tokenizer_path": "/kaggle/input/datasets/negative00/phase2-cloud-data/nepali/tokenizer/models/nepali_bpe_10k_assignment.model",
+    "per_head": [
+      {
+        "head": 0,
+        "mean_distance": 5.6254807148269,
+        "entropy": 1.1585254669189453
+      },
+      {
+        "head": 1,
+        "mean_distance": 7.4522620572281015,
+        "entropy": 1.2240228652954102
+      },
+      {
+        "head": 2,
+        "mean_distance": 5.049187579408536,
+        "entropy": 1.1108397245407104
+      },
+      {
+        "head": 3,
+        "mean_distance": 5.990446504040917,
+        "entropy": 0.9421473145484924
+      },
+      {
+        "head": 4,
+        "mean_distance": 8.761612624461907,
+        "entropy": 1.2837495803833008
+      },
+      {
+        "head": 5,
+        "mean_distance": 4.906883173295282,
+        "entropy": 1.179006814956665
+      },
+      {
+        "head": 6,
+        "mean_distance": 7.591733584559631,
+        "entropy": 1.4526138305664062
+      }
+    ]
+  },
+  {
+    "lang": "nepali",
+    "model_type": "finetuned",
+    "layer_name": "early",
+    "layer_idx": 0,
+    "category": "held_out",
+    "ex_idx": 2,
+    "example_id": "nepali_test_3",
+    "template_id": "N31",
+    "task_type": "transitive",
+    "attribute": "price",
+    "question_category": "price",
+    "answer": "सस्तो",
+    "seq_len": 36,
+    "mean_distance_all_heads": 7.572207044912807,
+    "entropy_all_heads": 2.2664154086794173,
+    "checkpoint_path": "/kaggle/input/notebooks/negative00/lma-phase3-nepali/results/phase3_finetune/nepali/step_00003000.pt",
+    "step": 3000,
+    "tokenizer_path": "/kaggle/input/datasets/negative00/phase2-cloud-data/nepali/tokenizer/models/nepali_bpe_10k_assignment.model",
+    "per_head": [
+      {
+        "head": 0,
+        "mean_distance": 8.25440148872763,
+        "entropy": 2.509799003601074
+      },
+      {
+        "head": 1,
+        "mean_distance": 7.915767784847251,
+        "entropy": 2.422884464263916
+      },
+      {
+        "head": 2,
+        "mean_distance": 7.62852092258658,
+        "entropy": 2.3342459201812744
+      },
+      {
+        "head": 3,
+        "mean_distance": 6.7462806634236285,
+        "entropy": 2.050664186477661
+      },
+      {
+        "head": 4,
+        "mean_distance": 7.7914631078793315,
+        "entropy": 2.1825037002563477
+      },
+      {
+        "head": 5,
+        "mean_distance": 7.149612692067523,
+        "entropy": 1.996625304222107
+      },
+      {
+        "head": 6,
+        "mean_distance": 7.519402654857711,
+        "entropy": 2.36818528175354
+      }
+    ]
+  },
+  {
+    "lang": "nepali",
+    "model_type": "finetuned",
+    "layer_name": "late",
+    "layer_idx": 7,
+    "category": "held_out",
+    "ex_idx": 2,
+    "example_id": "nepali_test_3",
+    "template_id": "N31",
+    "task_type": "transitive",
+    "attribute": "price",
+    "question_category": "price",
+    "answer": "सस्तो",
+    "seq_len": 36,
+    "mean_distance_all_heads": 7.068857205810742,
+    "entropy_all_heads": 1.719756739480155,
+    "checkpoint_path": "/kaggle/input/notebooks/negative00/lma-phase3-nepali/results/phase3_finetune/nepali/step_00003000.pt",
+    "step": 3000,
+    "tokenizer_path": "/kaggle/input/datasets/negative00/phase2-cloud-data/nepali/tokenizer/models/nepali_bpe_10k_assignment.model",
+    "per_head": [
+      {
+        "head": 0,
+        "mean_distance": 5.568805238638689,
+        "entropy": 1.59380304813385
+      },
+      {
+        "head": 1,
+        "mean_distance": 6.995875705088225,
+        "entropy": 1.8188694715499878
+      },
+      {
+        "head": 2,
+        "mean_distance": 7.238995036859728,
+        "entropy": 1.5296300649642944
+      },
+      {
+        "head": 3,
+        "mean_distance": 6.720217582484073,
+        "entropy": 1.7622761726379395
+      },
+      {
+        "head": 4,
+        "mean_distance": 8.51979411368602,
+        "entropy": 1.8322895765304565
+      },
+      {
+        "head": 5,
+        "mean_distance": 5.786595934640739,
+        "entropy": 1.6578810214996338
+      },
+      {
+        "head": 6,
+        "mean_distance": 8.651716829277726,
+        "entropy": 1.8435478210449219
+      }
+    ]
+  }
+]

@@ -1,0 +1,113 @@
+{
+  "metadata": {
+    "generation_timestamp": "2026-08-19T08:45:52.906632Z",
+    "corpus_input_dir": "C:\\Users\\arped\\OneDrive\\Desktop\\LMA\\hindi\\data\\interim",
+    "tokenizer_model_path": "C:\\Users\\arped\\OneDrive\\Desktop\\LMA\\hindi\\tokenizer\\models\\hindi_bpe_10k_final.model",
+    "sentencepiece_version": "0.2.2",
+    "tokenizer_model_type": "BPE",
+    "vocabulary_size": 10000,
+    "character_coverage": 0.9995,
+    "normalization_rule": "identity",
+    "runtime_seconds": 1072.54
+  },
+  "overall": {
+    "documents": 948012,
+    "words": 389993765,
+    "characters": 2018857044,
+    "sp_tokens": 587927125,
+    "fertility": 1.508,
+    "chars_per_token": 3.434,
+    "unk_count": 15143583,
+    "unk_pct": 2.576
+  },
+  "manual_vs_hplt_breakdown": {
+    "manual": {
+      "documents": 333738,
+      "words": 104664750,
+      "sp_tokens": 176068967,
+      "token_percentage": 29.947
+    },
+    "hplt": {
+      "documents": 614274,
+      "words": 285329015,
+      "sp_tokens": 411858158,
+      "token_percentage": 70.053
+    },
+    "requirement_passed": true,
+    "minimum_required_pct": 20.0
+  },
+  "heuristic_comparison_3_tokens_per_word": {
+    "heuristic_manual_tokens": 313994250,
+    "heuristic_hplt_tokens": 855987045,
+    "heuristic_total_tokens": 1169981295,
+    "heuristic_manual_pct": 26.838
+  },
+  "per_source": {
+    "dainik_jagran": {
+      "documents": 30,
+      "words": 12308,
+      "characters": 64364,
+      "sp_tokens": 17021,
+      "fertility": 1.383,
+      "chars_per_token": 3.781,
+      "unk_count": 307,
+      "unk_pct": 1.804,
+      "is_manual": true
+    },
+    "amar_ujala": {
+      "documents": 85,
+      "words": 34901,
+      "characters": 181278,
+      "sp_tokens": 50672,
+      "fertility": 1.452,
+      "chars_per_token": 3.577,
+      "unk_count": 1511,
+      "unk_pct": 2.982,
+      "is_manual": true
+    },
+    "live_hindustan": {
+      "documents": 119,
+      "words": 73708,
+      "characters": 398722,
+      "sp_tokens": 103557,
+      "fertility": 1.405,
+      "chars_per_token": 3.85,
+      "unk_count": 1410,
+      "unk_pct": 1.362,
+      "is_manual": true
+    },
+    "hindi_wikipedia": {
+      "documents": 166235,
+      "words": 51742634,
+      "characters": 282712876,
+      "sp_tokens": 84196454,
+      "fertility": 1.627,
+      "chars_per_token": 3.358,
+      "unk_count": 2336861,
+      "unk_pct": 2.775,
+      "is_manual": true
+    },
+    "hindi_wikisource": {
+      "documents": 167269,
+      "words": 52801199,
+      "characters": 273402707,
+      "sp_tokens": 91701263,
+      "fertility": 1.737,
+      "chars_per_token": 2.981,
+      "unk_count": 3880130,
+      "unk_pct": 4.231,
+      "is_manual": true
+    },
+    "indic_hplt_v2": {
+      "documents": 614274,
+      "words": 285329015,
+      "characters": 1462097097,
+      "sp_tokens": 411858158,
+      "fertility": 1.443,
+      "chars_per_token": 3.55,
+      "unk_count": 8923364,
+      "unk_pct": 2.167,
+      "is_manual": false
+    }
+  }
+}

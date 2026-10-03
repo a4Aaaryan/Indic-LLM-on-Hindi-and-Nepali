@@ -1,0 +1,49 @@
+# Phase 3 Fine-tuning Configuration: HINDI
+
+# Identity
+language: hindi
+pretrained_checkpoint: /path/to/checkpoints/hindi/step_00020000.pt
+tokenizer_path: hindi/tokenizer/models/hindi_bpe_10k_final.model
+output_dir: results/phase3_finetune/hindi/
+
+# Data
+train_data: results/phase3/hindi_train.jsonl
+val_data: results/phase3/hindi_val.jsonl
+test_data: results/phase3/hindi_test.jsonl
+
+# Architecture parameters (Frozen to match Phase 2)
+vocab_size: 10000
+d_model: 448
+n_layers: 8
+n_heads: 7
+d_ff: 2048
+max_seq_len: 512
+dropout: 0.1
+bias: true
+context_length: 512
+
+# Training Hyperparameters
+batch_size: 16
+grad_accum_steps: 1
+learning_rate: 5.0e-5
+min_lr: 5.0e-6
+weight_decay: 0.1
+beta1: 0.9
+beta2: 0.95
+eps: 1.0e-8
+
+# Schedule
+max_steps: 3000
+warmup_steps: 300
+grad_clip: 1.0
+
+# Logging and Checkpoints
+log_interval: 10
+eval_interval: 500
+eval_batches: 50
+checkpoint_interval: 1000
+keep_latest_n: 3
+
+# Reproducibility
+seed: 42
+use_amp: true

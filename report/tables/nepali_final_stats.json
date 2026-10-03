@@ -1,0 +1,167 @@
+{
+  "metadata": {
+    "generation_timestamp": "2026-08-20T17:56:47.326688Z",
+    "corpus_input_dir": "C:\\Users\\arped\\OneDrive\\Desktop\\LMA\\nepali\\data\\splits",
+    "tokenizer_model_path": "C:\\Users\\arped\\OneDrive\\Desktop\\LMA\\nepali\\tokenizer\\models\\nepali_bpe_10k_final.model",
+    "tokenizer_model_type": "BPE",
+    "vocabulary_size": 10000,
+    "runtime_seconds": 1094.37
+  },
+  "overall": {
+    "documents": 1061336,
+    "words": 317069245,
+    "characters": 2047521093,
+    "sp_tokens": 496534521,
+    "target_tokens": 300000000,
+    "distance_from_target": 196534521,
+    "fertility": 1.566,
+    "chars_per_token": 4.124,
+    "unk_count": 10735951,
+    "unk_pct": 2.162
+  },
+  "splits": {
+    "train": {
+      "docs": 955348,
+      "words": 285391763,
+      "tokens": 446871924
+    },
+    "val": {
+      "docs": 53071,
+      "words": 15956538,
+      "tokens": 25016459
+    },
+    "test": {
+      "docs": 52917,
+      "words": 15720944,
+      "tokens": 24646138
+    }
+  },
+  "manual_vs_hplt_breakdown": {
+    "manual": {
+      "documents": 95206,
+      "words": 31592362,
+      "sp_tokens": 50350779,
+      "token_percentage": 10.14
+    },
+    "hplt": {
+      "documents": 966130,
+      "words": 285476883,
+      "sp_tokens": 446183742,
+      "token_percentage": 89.86
+    },
+    "requirement_passed": false,
+    "minimum_required_pct": 20.0
+  },
+  "per_source": {
+    "indic_hplt_v2": {
+      "documents": 966130,
+      "words": 285476883,
+      "characters": 1841388928,
+      "sp_tokens": 446183742,
+      "fertility": 1.563,
+      "chars_per_token": 4.127,
+      "unk_count": 9592602,
+      "unk_pct": 2.15,
+      "is_manual": false
+    },
+    "onlinekhabar": {
+      "documents": 28987,
+      "words": 10489801,
+      "characters": 68158381,
+      "sp_tokens": 15842682,
+      "fertility": 1.51,
+      "chars_per_token": 4.302,
+      "unk_count": 321896,
+      "unk_pct": 2.032,
+      "is_manual": true
+    },
+    "ratopati": {
+      "documents": 4226,
+      "words": 1285235,
+      "characters": 8519481,
+      "sp_tokens": 2004903,
+      "fertility": 1.56,
+      "chars_per_token": 4.249,
+      "unk_count": 39443,
+      "unk_pct": 1.967,
+      "is_manual": true
+    },
+    "nepali_archives": {
+      "documents": 4,
+      "words": 6002,
+      "characters": 42151,
+      "sp_tokens": 15904,
+      "fertility": 2.65,
+      "chars_per_token": 2.65,
+      "unk_count": 89,
+      "unk_pct": 0.56,
+      "is_manual": true
+    },
+    "e_pustakalaya": {
+      "documents": 4,
+      "words": 2134,
+      "characters": 13972,
+      "sp_tokens": 5386,
+      "fertility": 2.524,
+      "chars_per_token": 2.594,
+      "unk_count": 903,
+      "unk_pct": 16.766,
+      "is_manual": true
+    },
+    "ekantipur": {
+      "documents": 29080,
+      "words": 12370271,
+      "characters": 80286405,
+      "sp_tokens": 18293140,
+      "fertility": 1.479,
+      "chars_per_token": 4.389,
+      "unk_count": 269473,
+      "unk_pct": 1.473,
+      "is_manual": true
+    },
+    "kantipur": {
+      "documents": 9,
+      "words": 4335,
+      "characters": 29011,
+      "sp_tokens": 6146,
+      "fertility": 1.418,
+      "chars_per_token": 4.72,
+      "unk_count": 90,
+      "unk_pct": 1.464,
+      "is_manual": true
+    },
+    "setopati": {
+      "documents": 2581,
+      "words": 284433,
+      "characters": 2034485,
+      "sp_tokens": 591673,
+      "fertility": 2.08,
+      "chars_per_token": 3.439,
+      "unk_count": 90891,
+      "unk_pct": 15.362,
+      "is_manual": true
+    },
+    "nepali_wikipedia": {
+      "documents": 30236,
+      "words": 7059858,
+      "characters": 46514483,
+      "sp_tokens": 13383625,
+      "fertility": 1.896,
+      "chars_per_token": 3.475,
+      "unk_count": 407540,
+      "unk_pct": 3.045,
+      "is_manual": true
+    },
+    "nepali_wikisource": {
+      "documents": 79,
+      "words": 90293,
+      "characters": 533796,
+      "sp_tokens": 207320,
+      "fertility": 2.296,
+      "chars_per_token": 2.575,
+      "unk_count": 13024,
+      "unk_pct": 6.282,
+      "is_manual": true
+    }
+  }
+}

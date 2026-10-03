@@ -1,0 +1,142 @@
+{
+  "global": {
+    "input_docs": 1064492,
+    "retained_docs": 1061336,
+    "duplicate_docs": 3156,
+    "duplicate_percentage": 0.29647944747353666,
+    "input_words": 318001789,
+    "retained_words": 317069245,
+    "removed_words": 932544,
+    "input_chars": 2053669435,
+    "retained_chars": 2047521093,
+    "removed_chars": 6148342
+  },
+  "per_source": {
+    "nepali_wikipedia": {
+      "input_docs": 30283,
+      "unique_docs": 30236,
+      "exact_duplicates": 47,
+      "input_words": 7061158,
+      "retained_words": 7059858,
+      "removed_words": 1300,
+      "input_chars": 46522867,
+      "retained_chars": 46514483,
+      "removed_chars": 8384,
+      "cross_source_duplicates": {}
+    },
+    "nepali_wikisource": {
+      "input_docs": 79,
+      "unique_docs": 79,
+      "exact_duplicates": 0,
+      "input_words": 90293,
+      "retained_words": 90293,
+      "removed_words": 0,
+      "input_chars": 533796,
+      "retained_chars": 533796,
+      "removed_chars": 0,
+      "cross_source_duplicates": {}
+    },
+    "onlinekhabar": {
+      "input_docs": 28987,
+      "unique_docs": 28987,
+      "exact_duplicates": 0,
+      "input_words": 10489801,
+      "retained_words": 10489801,
+      "removed_words": 0,
+      "input_chars": 68158381,
+      "retained_chars": 68158381,
+      "removed_chars": 0,
+      "cross_source_duplicates": {}
+    },
+    "ratopati": {
+      "input_docs": 7245,
+      "unique_docs": 4226,
+      "exact_duplicates": 3019,
+      "input_words": 2177893,
+      "retained_words": 1285235,
+      "removed_words": 892658,
+      "input_chars": 14411229,
+      "retained_chars": 8519481,
+      "removed_chars": 5891748,
+      "cross_source_duplicates": {}
+    },
+    "nepali_archives": {
+      "input_docs": 4,
+      "unique_docs": 4,
+      "exact_duplicates": 0,
+      "input_words": 6002,
+      "retained_words": 6002,
+      "removed_words": 0,
+      "input_chars": 42151,
+      "retained_chars": 42151,
+      "removed_chars": 0,
+      "cross_source_duplicates": {}
+    },
+    "e_pustakalaya": {
+      "input_docs": 4,
+      "unique_docs": 4,
+      "exact_duplicates": 0,
+      "input_words": 2134,
+      "retained_words": 2134,
+      "removed_words": 0,
+      "input_chars": 13972,
+      "retained_chars": 13972,
+      "removed_chars": 0,
+      "cross_source_duplicates": {}
+    },
+    "ekantipur": {
+      "input_docs": 29088,
+      "unique_docs": 29080,
+      "exact_duplicates": 8,
+      "input_words": 12373907,
+      "retained_words": 12370271,
+      "removed_words": 3636,
+      "input_chars": 80310667,
+      "retained_chars": 80286405,
+      "removed_chars": 24262,
+      "cross_source_duplicates": {
+        "kantipur": 8
+      }
+    },
+    "kantipur": {
+      "input_docs": 90,
+      "unique_docs": 9,
+      "exact_duplicates": 81,
+      "input_words": 39202,
+      "retained_words": 4335,
+      "removed_words": 34867,
+      "input_chars": 252412,
+      "retained_chars": 29011,
+      "removed_chars": 223401,
+      "cross_source_duplicates": {
+        "ekantipur": 81
+      }
+    },
+    "setopati": {
+      "input_docs": 2581,
+      "unique_docs": 2581,
+      "exact_duplicates": 0,
+      "input_words": 284433,
+      "retained_words": 284433,
+      "removed_words": 0,
+      "input_chars": 2034485,
+      "retained_chars": 2034485,
+      "removed_chars": 0,
+      "cross_source_duplicates": {}
+    },
+    "indic_hplt_v2": {
+      "input_docs": 966131,
+      "unique_docs": 966130,
+      "exact_duplicates": 1,
+      "input_words": 285476966,
+      "retained_words": 285476883,
+      "removed_words": 83,
+      "input_chars": 1841389475,
+      "retained_chars": 1841388928,
+      "removed_chars": 547,
+      "cross_source_duplicates": {
+        "nepali_wikipedia": 1
+      }
+    }
+  }
+}

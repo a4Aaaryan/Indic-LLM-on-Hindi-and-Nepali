@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "generation_timestamp": "2026-08-21T16:27:34.615756Z",
+    "corpus_input_dir": "C:\\Users\\arped\\OneDrive\\Desktop\\LMA\\nepali\\data\\final",
+    "tokenizer_model_path": "C:\\Users\\arped\\OneDrive\\Desktop\\LMA\\nepali\\tokenizer\\models\\nepali_bpe_10k_assignment.model",
+    "tokenizer_model_type": "BPE",
+    "vocabulary_size": 10000,
+    "runtime_seconds": 535.01
+  },
+  "overall": {
+    "documents": 494642,
+    "words": 149592666,
+    "characters": 967239646,
+    "sp_tokens_actual": 234800139,
+    "heuristic_tokens_total": 448777998,
+    "fertility_actual": 1.57,
+    "unk_pct": 2.181
+  },
+  "instructor_heuristic_evaluation_3_tokens_per_word": {
+    "heuristic_manual_tokens": 94777086,
+    "heuristic_hplt_tokens": 354000912,
+    "heuristic_total_tokens": 448777998,
+    "heuristic_manual_pct": 21.119,
+    "requirement_passed": true
+  },
+  "actual_tokenizer_breakdown": {
+    "manual_tokens": 50248944,
+    "hplt_tokens": 184551195,
+    "manual_pct": 21.401
+  },
+  "per_source": {
+    "indic_hplt_v2": {
+      "docs": 399436,
+      "words": 118000304,
+      "tokens": 184551195,
+      "chars": 761107481,
+      "unks": 3977829
+    },
+    "onlinekhabar": {
+      "docs": 28987,
+      "words": 10489801,
+      "tokens": 15810015,
+      "chars": 68158381,
+      "unks": 321896
+    },
+    "ratopati": {
+      "docs": 4226,
+      "words": 1285235,
+      "tokens": 2001996,
+      "chars": 8519481,
+      "unks": 39443
+    },
+    "nepali_archives": {
+      "docs": 4,
+      "words": 6002,
+      "tokens": 15917,
+      "chars": 42151,
+      "unks": 89
+    },
+    "e_pustakalaya": {
+      "docs": 4,
+      "words": 2134,
+      "tokens": 5376,
+      "chars": 13972,
+      "unks": 903
+    },
+    "ekantipur": {
+      "docs": 29080,
+      "words": 12370271,
+      "tokens": 18256783,
+      "chars": 80286405,
+      "unks": 269473
+    },
+    "kantipur": {
+      "docs": 9,
+      "words": 4335,
+      "tokens": 6138,
+      "chars": 29011,
+      "unks": 90
+    },
+    "setopati": {
+      "docs": 2581,
+      "words": 284433,
+      "tokens": 586078,
+      "chars": 2034485,
+      "unks": 90891
+    },
+    "nepali_wikipedia": {
+      "docs": 30236,
+      "words": 7059858,
+      "tokens": 13359128,
+      "chars": 46514483,
+      "unks": 407540
+    },
+    "nepali_wikisource": {
+      "docs": 79,
+      "words": 90293,
+      "tokens": 207513,
+      "chars": 533796,
+      "unks": 13024
+    }
+  }
+}

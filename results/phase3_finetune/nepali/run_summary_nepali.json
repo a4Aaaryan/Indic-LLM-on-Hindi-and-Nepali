@@ -1,0 +1,12 @@
+{
+  "language": "nepali",
+  "timestamp": "2026-09-16T15:39:09.587625Z",
+  "checkpoint": "/kaggle/input/notebooks/negative00/notebook13f3511eed/phase2_outputs_nepali/nepali_checkpoints/step_00020000.pt",
+  "tokenizer": "/kaggle/input/datasets/negative00/phase2-cloud-data/nepali/tokenizer/models/nepali_bpe_10k_assignment.model",
+  "test": "/kaggle/input/datasets/negative00/phase-3-finetune-dataset/nepali_test.jsonl",
+  "baseline_json": "/kaggle/working/results/phase3_finetune/nepali/baseline_nepali.json",
+  "finetuned_json": "/kaggle/working/results/phase3_finetune/nepali/finetuned_nepali.json",
+  "run_baseline": false,
+  "run_finetuning": true,
+  "seed": 42
+}

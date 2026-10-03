@@ -1,0 +1,11 @@
+Source,Is Manual,Documents,Words,Heuristic Tokens,Actual SP Tokens,Actual Fertility
+indic_hplt_v2,False,399436,118000304,354000912,184551195,1.564
+onlinekhabar,True,28987,10489801,31469403,15810015,1.507
+ratopati,True,4226,1285235,3855705,2001996,1.558
+nepali_archives,True,4,6002,18006,15917,2.652
+e_pustakalaya,True,4,2134,6402,5376,2.519
+ekantipur,True,29080,12370271,37110813,18256783,1.476
+kantipur,True,9,4335,13005,6138,1.416
+setopati,True,2581,284433,853299,586078,2.061
+nepali_wikipedia,True,30236,7059858,21179574,13359128,1.892
+nepali_wikisource,True,79,90293,270879,207513,2.298

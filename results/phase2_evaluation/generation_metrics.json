@@ -1,0 +1,30 @@
+{
+  "hindi": {
+    "greedy": {
+      "error": "metrics_libraries_unavailable"
+    },
+    "temp_0.5": {
+      "error": "metrics_libraries_unavailable"
+    },
+    "temp_1.0": {
+      "error": "metrics_libraries_unavailable"
+    },
+    "temp_1.5": {
+      "error": "metrics_libraries_unavailable"
+    }
+  },
+  "nepali": {
+    "greedy": {
+      "error": "metrics_libraries_unavailable"
+    },
+    "temp_0.5": {
+      "error": "metrics_libraries_unavailable"
+    },
+    "temp_1.0": {
+      "error": "metrics_libraries_unavailable"
+    },
+    "temp_1.5": {
+      "error": "metrics_libraries_unavailable"
+    }
+  }
+}

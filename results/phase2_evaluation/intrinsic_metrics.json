@@ -1,0 +1,38 @@
+{
+  "hindi": {
+    "val": {
+      "docs_evaluated": 500,
+      "tokens_evaluated": 459388,
+      "bytes_evaluated": 3873716,
+      "loss": 4.101473248098228,
+      "perplexity": 60.429249326569824,
+      "bpb": 0.7017239368863444
+    },
+    "test": {
+      "docs_evaluated": 500,
+      "tokens_evaluated": 341713,
+      "bytes_evaluated": 2872435,
+      "loss": 4.026231606726463,
+      "perplexity": 56.0492969809338,
+      "bpb": 0.6910104006525026
+    }
+  },
+  "nepali": {
+    "val": {
+      "docs_evaluated": 500,
+      "tokens_evaluated": 235528,
+      "bytes_evaluated": 2612602,
+      "loss": 4.1789514137401165,
+      "perplexity": 65.29734740186784,
+      "bpb": 0.5435145191953215
+    },
+    "test": {
+      "docs_evaluated": 500,
+      "tokens_evaluated": 231578,
+      "bytes_evaluated": 2527914,
+      "loss": 4.0806179659124195,
+      "perplexity": 59.18203102974146,
+      "bpb": 0.5393062831634319
+    }
+  }
+}

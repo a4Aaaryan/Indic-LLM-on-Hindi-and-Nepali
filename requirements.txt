@@ -1,0 +1,26 @@
+# Core PyTorch and Math
+torch>=2.0.0
+numpy>=1.24.0
+pandas>=2.1.0
+
+# Tokenization & NLP
+sentencepiece>=0.1.99
+tokenizers>=0.15.0
+datasets>=2.16.0
+huggingface_hub>=0.20.0
+
+# Data Collection, Web Scraping & Extraction
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+urllib3>=2.0.0
+
+# Configuration & Utilities
+pyyaml>=6.0.1
+tqdm>=4.66.0
+
+# Visualization & Reporting
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# Testing & Linting
+pytest>=7.4.0
